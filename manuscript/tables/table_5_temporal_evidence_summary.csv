@@ -1,0 +1,4 @@
+evidence_tier,family_count,percentage_of_families,assigned_classes,sequence_variant_count,ridge_esm2_macro_f1,correct_families,primary_experimental_assays,reviewer_disposition
+Directly Protein-Validated Families,52,82.54,18 PRE / 34 POST,628,0.8154,43 / 52 (82.7%),"35S radiolabeling, SILAC mass spectrometry under cycloheximide/PAA metabolic arrest",RETAIN_IN_PRIMARY_BENCHMARK
+Transcript-Only Annotated Families,11,17.46,5 PRE / 6 POST,59,0.6857,8 / 11 (72.7%),"4sU nascent RNA-seq, RT-qPCR under metabolic inhibitor arrest",RETAIN_WITH_EXPLICIT_TRANSCRIPT_QUALIFIER
+Combined Strict Benchmark,63,100.0,23 PRE / 40 POST,687,0.7946,51 / 63 (80.95%),Reconciled strict temporal benchmark,PRIMARY_STUDY_BENCHMARK

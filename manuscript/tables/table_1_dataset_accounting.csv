@@ -1,0 +1,12 @@
+cohort_name,record_count,percentage_of_corpus,source_artifact,definition
+Primary Full-Length HSV-1 Candidates,9454,41.63,data/processed/valid_hsv1_proteins.fasta,Verified full-length HSV-1 sequences >= 70 aa purged of host/retroviral contaminants.
+Primary Full-Length HSV-2 Candidates,8718,38.39,data/processed/valid_hsv2_proteins.fasta,Verified full-length HSV-2 sequences >= 70 aa purged of host/retroviral contaminants.
+Total Valid Primary Cohort,18172,80.02,data/processed/valid_proteins_combined.fasta,Combined valid primary candidate viral sequences for downstream analysis.
+  - Non-Redundant Cluster Seeds (95% ID),3111,13.7,data/processed/esm2_t12_representatives_metadata.csv,Representative cluster centroids after 95% sequence identity redundancy reduction.
+  - Clinical Strain Variants,15061,66.32,reports/04_redundancy_decisions.csv,Near-identical sequence variants and clinical isolates assigned to cluster centroids.
+Fragment Sensitivity Cohort,3211,14.14,data/processed/fragment_sequences.fasta,Truncated sequences (< 70 aa) or peptides sequestered for sensitivity evaluation.
+Purged Non-Target Contaminants,1043,4.59,reports/04_redundancy_decisions.csv,"Retroviral Gag/Pol/Env artifacts, host interactors, and ribosomal contaminants."
+Quarantined Unverified Constructs,254,1.12,reports/04_redundancy_decisions.csv,"Synthetic patent constructs, engineered crystal fragments, and ambiguous records."
+Quarantined Species Conflicts,30,0.13,reports/04_redundancy_decisions.csv,Identical cross-species duplicate pairs with contradictory taxonomy annotations.
+Universal Total Sequence Corpus,22710,100.0,reports/04_redundancy_decisions.csv,Universal record-level lineage reconciling all retrieved alphaherpesvirus entries.
+Strict Direct Temporal Benchmark,687,3.02,data/processed/08_1_strict_temporal_benchmark.csv,Directly annotated sequence representatives across 63 independent gene families.
