@@ -1,0 +1,141 @@
+{
+  "UL5": {
+    "canonical_gene": "UL5",
+    "standard_name": "Helicase-primase helicase subunit",
+    "positive_patterns": [
+      "helicase-primase helicase",
+      "helicase-primase subunit ul5",
+      "dna helicase ul5"
+    ],
+    "negative_patterns": [
+      "primase subunit",
+      "associated"
+    ],
+    "requires_manual_review": false
+  },
+  "UL9": {
+    "canonical_gene": "UL9",
+    "standard_name": "Origin-binding protein (OBP)",
+    "positive_patterns": [
+      "origin-binding",
+      "origin binding protein",
+      "dna replication origin-binding"
+    ],
+    "negative_patterns": [],
+    "requires_manual_review": false
+  },
+  "UL12": {
+    "canonical_gene": "UL12",
+    "standard_name": "Alkaline nuclease",
+    "positive_patterns": [
+      "alkaline nuclease",
+      "deoxyribonuclease ul12"
+    ],
+    "negative_patterns": [],
+    "requires_manual_review": false
+  },
+  "UL13": {
+    "canonical_gene": "UL13",
+    "standard_name": "Tegument serine/threonine protein kinase",
+    "positive_patterns": [
+      "tegument serine/threonine",
+      "protein kinase ul13",
+      "tegument protein kinase"
+    ],
+    "negative_patterns": [
+      "us3"
+    ],
+    "requires_manual_review": false
+  },
+  "UL27": {
+    "canonical_gene": "UL27",
+    "standard_name": "Envelope glycoprotein B (gB)",
+    "positive_patterns": [
+      "glycoprotein b\\b",
+      "glycoprotein b2\\b",
+      "glycoprotein gb\\b"
+    ],
+    "negative_patterns": [
+      "glycoprotein c",
+      "glycoprotein d",
+      "glycoprotein e"
+    ],
+    "requires_manual_review": false
+  },
+  "UL36": {
+    "canonical_gene": "UL36",
+    "standard_name": "Large tegument protein (VP1/2)",
+    "positive_patterns": [
+      "large tegument",
+      "major tegument protein vp1/2",
+      "tegument protein vp1"
+    ],
+    "negative_patterns": [],
+    "requires_manual_review": false
+  },
+  "UL41": {
+    "canonical_gene": "UL41",
+    "standard_name": "Tegument host shutoff protein (vhs)",
+    "positive_patterns": [
+      "tegument host shutoff",
+      "virion host shutoff",
+      "vhs protein"
+    ],
+    "negative_patterns": [],
+    "requires_manual_review": false
+  },
+  "UL42": {
+    "canonical_gene": "UL42",
+    "standard_name": "DNA polymerase processivity subunit",
+    "positive_patterns": [
+      "dna polymerase processivity",
+      "polymerase processivity factor",
+      "processivity factor ul42"
+    ],
+    "negative_patterns": [
+      "catalytic"
+    ],
+    "requires_manual_review": false
+  },
+  "UL48": {
+    "canonical_gene": "UL48",
+    "standard_name": "Alpha trans-inducing factor (VP16 / alpha-TIF)",
+    "positive_patterns": [
+      "alpha trans-inducing",
+      "alpha-trans-inducing",
+      "trans-inducing factor",
+      "vp16 protein"
+    ],
+    "negative_patterns": [],
+    "requires_manual_review": false
+  },
+  "UL52": {
+    "canonical_gene": "UL52",
+    "standard_name": "Helicase-primase primase subunit",
+    "positive_patterns": [
+      "helicase-primase primase",
+      "primase subunit ul52",
+      "dna primase ul52"
+    ],
+    "negative_patterns": [
+      "helicase subunit",
+      "associated"
+    ],
+    "requires_manual_review": false
+  },
+  "RL2": {
+    "canonical_gene": "RL2",
+    "standard_name": "Infected cell protein 0 (ICP0)",
+    "positive_patterns": [
+      "infected cell protein 0\\b",
+      "\\bicp0\\b"
+    ],
+    "negative_patterns": [
+      "icp4",
+      "icp22",
+      "icp27",
+      "icp47"
+    ],
+    "requires_manual_review": false
+  }
+}

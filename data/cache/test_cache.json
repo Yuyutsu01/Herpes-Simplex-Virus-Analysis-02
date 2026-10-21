@@ -1,0 +1,37 @@
+{
+  "P04413": {
+    "organism": "Human herpesvirus 1 (strain 17)",
+    "taxid": 10299,
+    "title": "Serine/threonine-protein kinase US3",
+    "database": "UniProtKB",
+    "status": "VERIFIED"
+  },
+  "P04485": {
+    "organism": "Human herpesvirus 1 (strain 17)",
+    "taxid": 10299,
+    "title": "Transcriptional regulator ICP22",
+    "database": "UniProtKB",
+    "status": "VERIFIED"
+  },
+  "P10238": {
+    "organism": "Human herpesvirus 1 (strain 17)",
+    "taxid": 10299,
+    "title": "mRNA export factor",
+    "database": "UniProtKB",
+    "status": "VERIFIED"
+  },
+  "P28276": {
+    "organism": "Human herpesvirus 2 (strain HG52)",
+    "taxid": 10315,
+    "title": "mRNA export factor",
+    "database": "UniProtKB",
+    "status": "VERIFIED"
+  },
+  "Q15223": {
+    "organism": "Homo sapiens",
+    "taxid": 9606,
+    "title": "Nectin-1",
+    "database": "UniProtKB",
+    "status": "VERIFIED"
+  }
+}
