@@ -1,0 +1,5 @@
+temporal_class,sequence_record_count,pct_of_sequences,independent_gene_families,pct_of_families,ratio_seq_per_family,gene_families_list,feasibility_assessment,statistical_limitation
+IE_ALPHA,251,36.54,5,7.94,50.2,"RL2, RS1, UL54, US1, US12",CRITICALLY_UNDERPOWERED,"Only 5 independent families. In 5-fold cross-validation, exactly 1 family per fold."
+E_BETA,99,14.41,18,28.57,5.5,"UL12, UL14, UL2, UL23, UL29, UL30...",FEASIBLE_WITH_GROUP_AWARENESS,Adequate gene family diversity (18 families).
+L1_GAMMA1,159,23.14,16,25.4,9.9,"UL10, UL18, UL19, UL22, UL24, UL25...",FEASIBLE_WITH_GROUP_AWARENESS,Adequate gene family diversity (16 families).
+L2_GAMMA2,178,25.91,24,38.1,7.4,"UL11, UL20, UL21, UL28, UL31, UL32...",FEASIBLE_WITH_GROUP_AWARENESS,Adequate gene family diversity (24 families).

@@ -1,0 +1,7 @@
+adjudicated_temporal_class,total_records,pct_of_representative_cohort,hsv1_records,hsv2_records,pct_hsv1,pct_hsv2,median_sequence_length,median_ambiguity_fraction
+INSUFFICIENT_EVIDENCE,1354,43.52,521,833,38.5,61.5,301.0,0.0145
+L2_GAMMA2,598,19.22,182,416,30.4,69.6,468.0,0.0554
+L1_GAMMA1,354,11.38,107,247,30.2,69.8,548.0,0.0484
+E_BETA,338,10.86,93,245,27.5,72.5,470.0,0.0503
+IE_ALPHA,279,8.97,109,170,39.1,60.9,1304.0,0.1751
+MIXED_OR_CONTEXT_DEPENDENT,188,6.04,112,76,59.6,40.4,249.0,0.0832

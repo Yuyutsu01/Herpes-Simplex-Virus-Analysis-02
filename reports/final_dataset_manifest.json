@@ -1,0 +1,57 @@
+{
+  "manifest_version": "3.0.0_frozen",
+  "timestamp_utc": "2026-10-21T12:02:58.961197+00:00",
+  "study_title": "Temporal Organization and Evolutionary Conservation of the HSV-1 and HSV-2 Proteomes",
+  "provenance_statement": "Primary FASTA files (data/raw/hsv1.fasta, data/raw/hsv2.fasta) were downloaded from authoritative public repositories. Working analysis cohorts are established under the working assumption of database veracity, with full accession-by-accession manual curation deferred. Plausible unannotated viral proteins are preserved with explicit uncertainty flags.",
+  "raw_inputs": {
+    "hsv1_fasta": {
+      "path": "C:\\Users\\shiva\\OneDrive\\Desktop\\Herpes-Simplex-Virus-Analysis-02\\data\\raw\\hsv1.fasta",
+      "records": 12170,
+      "sha256": "15001269a835b41223467e0d91bdcada433ee68c6a58c19e684c060483b31f36"
+    },
+    "hsv2_fasta": {
+      "path": "C:\\Users\\shiva\\OneDrive\\Desktop\\Herpes-Simplex-Virus-Analysis-02\\data\\raw\\hsv2.fasta",
+      "records": 10540,
+      "sha256": "86c9d627286aa4cad121af4c84cdb39b824c14905aa57948de9a996955ca0311"
+    },
+    "total_raw_records": 22710,
+    "unique_raw_hashes": 22689
+  },
+  "frozen_cohort_counts": {
+    "primary_valid_full_length_records": 18172,
+    "hsv1_primary_records": 9454,
+    "hsv2_primary_records": 8718,
+    "representative_cluster_seeds": 3111,
+    "strain_variant_records": 15061,
+    "annotated_canonical_records": 12156,
+    "provisional_unannotated_records": 6016,
+    "fragment_cohort_records": 3211,
+    "excluded_non_target_records": 1043,
+    "quarantined_unverified_records": 254,
+    "quarantined_taxonomy_conflict_records": 30,
+    "total_accounted_records": 22710
+  },
+  "sequence_length_distribution": {
+    "min": 74,
+    "max": 6165,
+    "mean": 677.39,
+    "median": 512,
+    "std": 578.2
+  },
+  "physicochemical_summary": {
+    "mean_molecular_weight_da": 71339.25,
+    "mean_isoelectric_point": 7.922,
+    "mean_gravy": -0.241,
+    "mean_instability_index": 52.88
+  },
+  "output_files": {
+    "valid_hsv1_proteins_fasta": "C:\\Users\\shiva\\OneDrive\\Desktop\\Herpes-Simplex-Virus-Analysis-02\\data\\processed\\valid_hsv1_proteins.fasta",
+    "valid_hsv2_proteins_fasta": "C:\\Users\\shiva\\OneDrive\\Desktop\\Herpes-Simplex-Virus-Analysis-02\\data\\processed\\valid_hsv2_proteins.fasta",
+    "valid_proteins_combined_fasta": "C:\\Users\\shiva\\OneDrive\\Desktop\\Herpes-Simplex-Virus-Analysis-02\\data\\processed\\valid_proteins_combined.fasta",
+    "valid_proteins_metadata_csv": "C:\\Users\\shiva\\OneDrive\\Desktop\\Herpes-Simplex-Virus-Analysis-02\\data\\processed\\valid_proteins_metadata.csv",
+    "fragment_sequences_fasta": "C:\\Users\\shiva\\OneDrive\\Desktop\\Herpes-Simplex-Virus-Analysis-02\\data\\processed\\fragment_sequences.fasta",
+    "excluded_and_quarantined_records_csv": "C:\\Users\\shiva\\OneDrive\\Desktop\\Herpes-Simplex-Virus-Analysis-02\\data\\processed\\excluded_and_quarantined_records.csv",
+    "manifest_json": "C:\\Users\\shiva\\OneDrive\\Desktop\\Herpes-Simplex-Virus-Analysis-02\\reports\\final_dataset_manifest.json",
+    "summary_md": "C:\\Users\\shiva\\OneDrive\\Desktop\\Herpes-Simplex-Virus-Analysis-02\\reports\\final_dataset_summary.md"
+  }
+}

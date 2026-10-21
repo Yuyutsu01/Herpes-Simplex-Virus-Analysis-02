@@ -1,0 +1,6 @@
+model_id,model_class,feature_set,step10_config_C,step13_executed_C,step13_narrative_reported_C,discrepancy_status,resolution
+dummy_majority,DummyClassifier,None,,,,EXACT_MATCH,Config and code match exactly.
+logreg_physicochemical,LogisticRegression,8 Physicochemical Descriptors,1.0,1.0,1.0,EXACT_MATCH,Config and code match exactly.
+rf_physicochemical,RandomForestClassifier,8 Physicochemical Descriptors,,,,EXACT_MATCH,Config and code match exactly.
+ridge_esm2,LogisticRegression,480 ESM-2 Embeddings,1.0,1.0,0.1,TEXTUAL_TYPO_IN_REPORT,"Both scripts/10_temporal_baseline_models.py and scripts/13_independent_biological_validation.py instantiated and executed LogisticRegression with C=1.0. The Step 13 markdown summary text erroneously stated C=0.1, which was a typographical error in the narrative table."
+combined_phys_esm2,LogisticRegression,488 Combined Features (8 phys + 480 ESM-2),1.0,1.0,0.1,TEXTUAL_TYPO_IN_REPORT,"Both scripts/10_temporal_baseline_models.py and scripts/13_independent_biological_validation.py instantiated and executed LogisticRegression with C=1.0. The Step 13 markdown summary text erroneously stated C=0.1, which was a typographical error in the narrative table."

@@ -1,0 +1,4 @@
+variable_tested,test_type,test_statistic,p_value,effect_size_eta_sq,confounding_risk,scientific_interpretation
+Sequence Length (aa),Kruskal-Wallis H-test across 74 clusters,2649.84,0.0,0.8485,Moderate,"Length varies naturally across functional protein families (e.g. UL11 at 96 aa vs UL36 at 3164 aa). While clusters differ in length, length alone does not explain sub-family geometry."
+Ambiguous Residue Fraction (X),Kruskal-Wallis H-test across 74 clusters,691.39,1.7642586351311652e-101,0.2036,High Localized,"Ambiguity fraction is strongly concentrated in specific repeat loci (RL1/ICP34.5 and RS1/ICP4) due to GC-rich sequencing gaps, creating local cluster dispersion."
+Annotation Status vs Latent Embedding Norm,Mann-Whitney U-test (Annotated vs Unannotated),1010406.0,3.312931997193571e-15,0.1633,Moderate,"Unannotated candidates exhibit slightly shifted latent norms, reflecting atypical length and lower sequence conservation."

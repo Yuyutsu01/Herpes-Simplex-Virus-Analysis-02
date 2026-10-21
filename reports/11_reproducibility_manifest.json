@@ -1,0 +1,210 @@
+{
+  "audit_timestamp": "2026-10-21",
+  "artifacts": {
+    "Step 8.1 Strict Temporal Benchmark": {
+      "path": "data\\processed\\08_1_strict_temporal_benchmark.csv",
+      "sha256": "60ab4442c1ddc676571379b011fb8526ab7f303ae23da9e4dca726255f7d4173",
+      "rows": 3111,
+      "columns": 15,
+      "schema": [
+        "embedding_row_index",
+        "record_id",
+        "effective_species",
+        "effective_gene_symbol",
+        "original_gene_annotation",
+        "gene_evidence_tier",
+        "is_alias_recovered",
+        "adjudicated_cohort",
+        "normalized_temporal_class",
+        "transcript_kinetic_class",
+        "protein_kinetic_class",
+        "measured_molecule",
+        "evidence_source_ids",
+        "cross_species_transfer_status",
+        "audit_rationale"
+      ]
+    },
+    "Step 9 Group Split Manifest": {
+      "path": "data\\processed\\09_group_split_manifest.csv",
+      "sha256": "44c46b4bdd13022b04ea6e6352119b0cbb7923eb259c01e35dd29f0a0aa38065",
+      "rows": 3111,
+      "columns": 11,
+      "schema": [
+        "embedding_row_index",
+        "record_id",
+        "effective_species",
+        "effective_gene_symbol",
+        "homology_group_id",
+        "prevent_ml_leakage_group",
+        "adjudicated_cohort",
+        "normalized_temporal_class",
+        "proposed_split_role",
+        "fold_index",
+        "leakage_isolation_status"
+      ]
+    },
+    "ESM-2 Representatives Metadata": {
+      "path": "data\\processed\\esm2_t12_representatives_metadata.csv",
+      "sha256": "3b7f4f7fa543f24ee6049945f8851680b5416364494a41bc33e36c34de0efcac",
+      "rows": 3111,
+      "columns": 29,
+      "schema": [
+        "embedding_row_index",
+        "record_id",
+        "source_file",
+        "source_species_label",
+        "effective_species_attribution",
+        "accession",
+        "sequence_sha256",
+        "sequence_length",
+        "gene_annotation",
+        "taxonomy_status",
+        "taxonomy_evidence_source",
+        "fragment_status",
+        "exact_cluster_id",
+        "near_identity_cluster_id_95",
+        "homology_group_id",
+        "prevent_ml_leakage_group",
+        "final_disposition",
+        "disposition_reason",
+        "original_header",
+        "molecular_weight",
+        "isoelectric_point",
+        "instability_index",
+        "aliphatic_index",
+        "gravy",
+        "charged_fraction",
+        "polar_fraction",
+        "hydrophobic_fraction",
+        "aromatic_fraction",
+        "ambiguous_residue_fraction"
+      ]
+    },
+    "Step 10 Out-of-Fold Predictions": {
+      "path": "reports\\10_out_of_fold_predictions.csv",
+      "sha256": "c6a2b24952656cb04f4484db506c032cdb5d10344e7f29950939682d9db6cbb3",
+      "rows": 3435,
+      "columns": 11,
+      "schema": [
+        "model_id",
+        "embedding_row_index",
+        "record_id",
+        "effective_gene_symbol",
+        "homology_group_id",
+        "effective_species",
+        "measured_molecule",
+        "fold_index",
+        "true_class",
+        "predicted_class",
+        "predicted_prob_pre"
+      ]
+    },
+    "Step 10 Baseline Metrics Summary": {
+      "path": "reports\\10_baseline_metrics.csv",
+      "sha256": "613aa1dac00a13faeaa8879cf6c0e0b2106e094e90d355f13739a8ad25eb9253",
+      "rows": 5,
+      "columns": 29,
+      "schema": [
+        "model_id",
+        "model_type",
+        "feature_set",
+        "family_macro_f1",
+        "family_macro_f1_ci_lower",
+        "family_macro_f1_ci_upper",
+        "family_balanced_accuracy",
+        "family_bal_acc_ci_lower",
+        "family_bal_acc_ci_upper",
+        "family_accuracy",
+        "family_precision_pre",
+        "family_recall_pre",
+        "family_f1_pre",
+        "family_precision_post",
+        "family_recall_post",
+        "family_f1_post",
+        "family_tp_pre",
+        "family_fp_pre",
+        "family_fn_pre",
+        "family_tn_pre",
+        "sequence_macro_f1",
+        "sequence_balanced_accuracy",
+        "sequence_accuracy",
+        "sequence_precision_pre",
+        "sequence_recall_pre",
+        "sequence_f1_pre",
+        "sequence_precision_post",
+        "sequence_recall_post",
+        "sequence_f1_post"
+      ]
+    },
+    "Step 10 Family-Level Predictions": {
+      "path": "reports\\10_family_level_metrics.csv",
+      "sha256": "ec6439932e23a55fabccdeed67f43aec5483f3781c929846a32c8efef1d549e1",
+      "rows": 315,
+      "columns": 10,
+      "schema": [
+        "model_id",
+        "homology_group_id",
+        "effective_gene_symbol",
+        "fold_index",
+        "sequence_count",
+        "measured_molecule",
+        "true_class",
+        "predicted_class",
+        "mean_predicted_prob_pre",
+        "is_correct"
+      ]
+    },
+    "Step 10.1 Recomputed Metrics": {
+      "path": "reports\\10_1_recomputed_metrics.csv",
+      "sha256": "bbe5fad71807759f1099fba9582facbd4d7b570f578a729144909ec2dfe11179",
+      "rows": 5,
+      "columns": 13,
+      "schema": [
+        "model_id",
+        "recomputed_family_macro_f1",
+        "recomputed_family_balanced_accuracy",
+        "recomputed_family_accuracy",
+        "recomputed_family_f1_pre",
+        "recomputed_family_f1_post",
+        "recomputed_family_tp_pre",
+        "recomputed_family_fp_pre",
+        "recomputed_family_fn_pre",
+        "recomputed_family_tn_pre",
+        "recomputed_seq_macro_f1",
+        "recomputed_seq_balanced_accuracy",
+        "recomputed_seq_accuracy"
+      ]
+    },
+    "Step 10.1 Label Sensitivity": {
+      "path": "reports\\10_1_label_evidence_sensitivity.csv",
+      "sha256": "c13c017cbc89f19aca015bfe4c684bc2d9280e88030e0157faaebacc6cda2559",
+      "rows": 5,
+      "columns": 14,
+      "schema": [
+        "model_id",
+        "protein_validated_n_fams",
+        "protein_validated_pre_fams",
+        "protein_validated_post_fams",
+        "protein_validated_accuracy",
+        "protein_validated_balanced_accuracy",
+        "protein_validated_macro_f1",
+        "transcript_only_n_fams",
+        "transcript_only_pre_fams",
+        "transcript_only_post_fams",
+        "transcript_only_accuracy",
+        "transcript_only_balanced_accuracy",
+        "transcript_only_macro_f1",
+        "delta_macro_f1_prot_minus_tx"
+      ]
+    },
+    "Step 10.1 Reproducibility Decision": {
+      "path": "reports\\10_1_reproducibility_decision.md",
+      "sha256": "742dfda3a40b89702f9daaa63929cd2fdf52101c52ae00f0d533dbbdee00c279",
+      "rows": -1,
+      "columns": -1,
+      "schema": [
+        "markdown_report"
+      ]
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "manifest_version": "2.0_remediated",
+  "timestamp_utc": "2026-10-21T10:44:05.314107+00:00",
+  "step": "Step 4: Exact Duplicate Detection, Homology Clustering & Redundancy Analysis (Remediated)",
+  "software_environment": {
+    "python_version": "3.11.8 (tags/v3.11.8:db85d51, Feb  6 2024, 22:03:32) [MSC v.1937 64 bit (AMD64)]",
+    "biopython_version": "1.88",
+    "pairwise_aligner": "Bio.Align.PairwiseAligner (Needleman-Wunsch / C-accelerated)",
+    "clustering_algorithm": "Greedy Incremental Clustering (CD-HIT style) at 95% sequence identity"
+  },
+  "dataset_counts": {
+    "total_input_records": 22710,
+    "hsv1_records": 12170,
+    "hsv2_records": 10540,
+    "unique_sequence_hashes": 22689,
+    "exact_duplicate_clusters": 22689,
+    "cross_file_shared_sequence_hashes": 21,
+    "cross_file_shared_records": 42,
+    "near_identity_clusters_95": 3882,
+    "canonical_ortholog_pairs_audited": 69,
+    "final_disposition_breakdown": {
+      "RETAINED_VALID_VARIANT": 15865,
+      "QUARANTINED_UNVERIFIED": 254,
+      "RETAINED_UNIQUE_CANDIDATE": 3882,
+      "RETAINED_FRAGMENT_SEPARATE_ANALYSIS": 1636,
+      "QUARANTINED_TAXONOMY_CONFLICT": 30,
+      "EXCLUDED_CONFIRMED_NON_TARGET": 1043
+    }
+  },
+  "output_files": {
+    "implementation_audit_md": "C:\\Users\\shiva\\OneDrive\\Desktop\\Herpes-Simplex-Virus-Analysis-02\\reports\\04_implementation_audit.md",
+    "exact_duplicate_clusters_csv": "C:\\Users\\shiva\\OneDrive\\Desktop\\Herpes-Simplex-Virus-Analysis-02\\reports\\04_exact_duplicate_clusters.csv",
+    "near_identity_clusters_csv": "C:\\Users\\shiva\\OneDrive\\Desktop\\Herpes-Simplex-Virus-Analysis-02\\reports\\04_near_identity_clusters.csv",
+    "homology_group_membership_csv": "C:\\Users\\shiva\\OneDrive\\Desktop\\Herpes-Simplex-Virus-Analysis-02\\reports\\04_homology_group_membership.csv",
+    "cross_species_relationships_csv": "C:\\Users\\shiva\\OneDrive\\Desktop\\Herpes-Simplex-Virus-Analysis-02\\reports\\04_hsv1_hsv2_relationships.csv",
+    "redundancy_decisions_csv": "C:\\Users\\shiva\\OneDrive\\Desktop\\Herpes-Simplex-Virus-Analysis-02\\reports\\04_redundancy_decisions.csv",
+    "summary_report_md": "C:\\Users\\shiva\\OneDrive\\Desktop\\Herpes-Simplex-Virus-Analysis-02\\reports\\04_step4_summary.md",
+    "validation_results_json": "C:\\Users\\shiva\\OneDrive\\Desktop\\Herpes-Simplex-Virus-Analysis-02\\reports\\04_validation_results.json"
+  },
+  "scientific_integrity_guarantees": {
+    "raw_fastas_unmodified": true,
+    "zero_retained_retroviral_or_host_contaminants": true,
+    "true_aligned_residue_identity_verified": true,
+    "one_to_one_record_accounting": true
+  }
+}

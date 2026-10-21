@@ -1,0 +1,6 @@
+test_name,expected,observed,passed,notes
+direct_cohort_record_id_uniqueness,687 unique record IDs,"total=687, unique=687",True,Zero duplicate records in primary benchmark.
+embedding_matrix_integrity,"Shape (3111, 480), dtype float32, all values finite","shape=(3111, 480), dtype=float32, all_finite=True",True,Zero NaN or Inf values in frozen embedding tensor.
+embedding_row_index_validity,"All embedding_row_index values in [0, 3110]","min=15, max=3108",True,Explicit row indices map validly into embedding array.
+negative_test_out_of_bounds_index_detection,IndexError raised when accessing invalid embedding row index,IndexError raised successfully,True,Pipeline rejects out-of-bounds embedding row indices.
+negative_test_shuffled_row_mismatch_detection,Exact record_id alignment fails upon deliberate row permutation,Mismatch detected upon row shuffling,True,Pipeline detects row shuffling and does not rely on incidental array order.

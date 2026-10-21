@@ -1,0 +1,36 @@
+{
+  "validation_timestamp_utc": "2026-10-21T11:34:13.675359+00:00",
+  "input_fasta_integrity": {
+    "hsv1_sha256": "15001269a835b41223467e0d91bdcada433ee68c6a58c19e684c060483b31f36",
+    "hsv2_sha256": "86c9d627286aa4cad121af4c84cdb39b824c14905aa57948de9a996955ca0311",
+    "verified": true
+  },
+  "exact_duplicate_audit": {
+    "total_records": 22710,
+    "unique_hashes": 22689,
+    "cross_file_shared_hashes": 21,
+    "verified": true
+  },
+  "coverage_math_audit": {
+    "bidirectional_coverage_implemented": true,
+    "tautological_coverage_bug_fixed": true,
+    "verified": true
+  },
+  "gene_parsing_audit": {
+    "ul26_5_distinct_from_ul26": true,
+    "ul26_5_records_found": 208,
+    "verified": true
+  },
+  "natural_small_proteins_audit": {
+    "ul11_eligible_count": 21,
+    "ul49a_eligible_count": 52,
+    "us5_eligible_count": 86,
+    "us9_eligible_count": 53,
+    "verified": true
+  },
+  "cross_species_orthology_audit": {
+    "canonical_pairs_audited": 74,
+    "high_confidence_orthologs": 69,
+    "verified": true
+  }
+}

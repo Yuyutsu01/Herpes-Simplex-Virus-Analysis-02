@@ -1,0 +1,29 @@
+{
+  "manifest_version": "1.0.0_step12_1_validation_audit",
+  "timestamp_utc": "2026-10-21T16:57:12.319657+00:00",
+  "random_seed": 42,
+  "input_hashes_sha256": {
+    "08_1_strict_temporal_benchmark.csv": "60ab4442c1ddc676571379b011fb8526ab7f303ae23da9e4dca726255f7d4173",
+    "valid_proteins_metadata.csv": "3ed819df9d8fa9006008af0d5949d5216ef863f7fda8a03b57f365d2f0ede943",
+    "esm2_t12_representatives_metadata.csv": "3b7f4f7fa543f24ee6049945f8851680b5416364494a41bc33e36c34de0efcac",
+    "esm2_t12_representatives_embeddings.npy": "8255002b8fa464578addad481938a2f5757eaa72566cacda6adcb71522e49abd",
+    "09_group_split_manifest.csv": "44c46b4bdd13022b04ea6e6352119b0cbb7923eb259c01e35dd29f0a0aa38065",
+    "10_out_of_fold_predictions.csv": "c6a2b24952656cb04f4484db506c032cdb5d10344e7f29950939682d9db6cbb3"
+  },
+  "deliverables_generated": [
+    "C:\\Users\\shiva\\OneDrive\\Desktop\\Herpes-Simplex-Virus-Analysis-02\\reports\\12_1_data_alignment_checks.csv",
+    "C:\\Users\\shiva\\OneDrive\\Desktop\\Herpes-Simplex-Virus-Analysis-02\\reports\\12_1_pca_heldout_metrics.csv",
+    "C:\\Users\\shiva\\OneDrive\\Desktop\\Herpes-Simplex-Virus-Analysis-02\\reports\\12_1_embedding_geometry.csv",
+    "C:\\Users\\shiva\\OneDrive\\Desktop\\Herpes-Simplex-Virus-Analysis-02\\reports\\12_1_composition_inference_audit.csv",
+    "C:\\Users\\shiva\\OneDrive\\Desktop\\Herpes-Simplex-Virus-Analysis-02\\reports\\12_1_coefficient_stability_audit.csv",
+    "C:\\Users\\shiva\\OneDrive\\Desktop\\Herpes-Simplex-Virus-Analysis-02\\reports\\12_1_interpretation_validation_audit.md",
+    "C:\\Users\\shiva\\OneDrive\\Desktop\\Herpes-Simplex-Virus-Analysis-02\\reports\\12_1_reproducibility_manifest.json"
+  ],
+  "audit_verdicts": {
+    "data_alignment": "PASSED_ZERO_DRIFT",
+    "pca_held_out_generalization": "FAILED_IN_SAMPLE_OVERFIT_ONLY",
+    "effective_rank_assessment": "ERANK_13_63_CONDITION_NUMBER_ARTEFACT_EXPLAINED",
+    "composition_inference": "INCONCLUSIVE_DUE_TO_SAMPLE_SIZE",
+    "dimension_interpretability": "COLLINEAR_COORDINATES_RANK_SWAPPING_DOCUMENTED"
+  }
+}

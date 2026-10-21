@@ -1,0 +1,18 @@
+section_or_requirement,completeness_status,reviewer_notes,action_required
+Title & Running Head,Present,Clear and accurate working title.,None
+Abstract,Present,Concise summary; needs explicit binary task framing.,None
+Introduction & Hypotheses,Present,Virological cascade explained; needs explicit hypothesis.,None
+Methods: Sequence Provenance & QC,Partially Present,"Summary present; lacks detailed exclusion tallies (1,043 non-targets).",Add or expand in Step 15 revised manuscript.
+Methods: Embedding & Representation,Present,ESM-2 480-dim mean pooling described.,None
+Methods: Cross-Validation & Splitting,Present,Group-disjoint 5-fold split and in-fold scaling described.,None
+Methods: Model Hyperparameters,Partially Present,"C=1.0 stated; lacks solver details (L-BFGS, max_iter=1000).",Add or expand in Step 15 revised manuscript.
+Methods: Statistical Multiplicity,Present,Exact McNemar and Holm-Bonferroni specified.,None
+Results: Numerical Metric Reporting,Present,Balanced accuracy and Macro-F1 reported.,None
+Results: Formatted Data Tables,Missing in Draft,Step 14 draft has text summary; lacks embedded Markdown tables.,Add or expand in Step 15 revised manuscript.
+Results: Embedded Figure Callouts,Missing in Draft,"Draft lacks explicit callouts to Figures 1, 2, and 3.",Add or expand in Step 15 revised manuscript.
+Discussion: Non-Causality & Representation,Present,Discusses non-linear distribution; needs non-causal emphasis.,None
+Discussion: Generalization Boundaries,Present,Acknowledges sister-species ortholog limitation.,None
+Discussion: Unresolved External Cohort,Present,Correctly identifies lack of prospective clinical data.,None
+Conclusions,Missing in Draft,Step 14 draft ends after Discussion without formal Conclusions section.,Add or expand in Step 15 revised manuscript.
+References,Present,7 verified primary citations included.,None
+Supplementary Material Inventory,Missing in Draft,Lacks explicit inventory of Supplementary Tables S1-S3.,Add or expand in Step 15 revised manuscript.

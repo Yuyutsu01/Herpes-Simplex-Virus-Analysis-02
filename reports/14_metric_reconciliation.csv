@@ -1,0 +1,13 @@
+metric_name,evaluation_unit,reported_in_manuscript,recomputed_from_primary_data,absolute_difference,reconciliation_verdict,notes
+ESM-2 Family Balanced Accuracy,Homology Gene Family (N=63),0.7946,0.7946,0.0,CONFIRMED_EXACT_MATCH,"Exact match across Step 10, Step 13, and Step 13.1 retraining."
+ESM-2 Family Macro-F1,Homology Gene Family (N=63),0.7946,0.7946,0.0,CONFIRMED_EXACT_MATCH,Exact equality of balanced accuracy and macro-F1 is mathematically proven (51/63 correct).
+ESM-2 Family Accuracy,Homology Gene Family (N=63),0.8095,0.8095,0.0,CONFIRMED_EXACT_MATCH,51 correct out of 63 families = 0.8095238.
+Physicochemical LogReg Family Macro-F1,Homology Gene Family (N=63),0.5679,0.5679,0.0,CONFIRMED_EXACT_MATCH,Uses 8 classical bulk physicochemical descriptors.
+Physicochemical Random Forest Family Macro-F1,Homology Gene Family (N=63),0.5102,0.5102,0.0,CONFIRMED_EXACT_MATCH,"Conservative RF (100 trees, depth=5, min_samples_leaf=3)."
+Fixed Majority Baseline Family Macro-F1,Homology Gene Family (N=63),0.4741,0.4741,0.0,CONFIRMED_EXACT_MATCH,DummyClassifier strategy='most_frequent'.
+Protein-Validated Subgroup Macro-F1,Homology Gene Family (N=52),0.8154,0.8154,0.0,CONFIRMED_EXACT_MATCH,Evaluated on directly protein-supported families (43/52 correct).
+Transcript-Only Subgroup Macro-F1,Homology Gene Family (N=11),0.6857,0.6857,0.0,CONFIRMED_EXACT_MATCH,Evaluated on transcript-only annotated families (8/11 correct).
+ESM-2 vs Majority Baseline McNemar p-value,Paired Family Predictions (N=63),0.000769,0.000769,0.0,CONFIRMED_EXACT_MATCH,Holm-adjusted p-value across 4 comparisons (raw p = 0.000192).
+ESM-2 vs Physicochemical RF p-value,Paired Family Predictions (N=63),0.0201,0.0201,0.0,REQUIRES_MULTIPLICITY_CORRECTION,Raw p = 0.0201 was reported as significant. Must be corrected to Holm p_adj = 0.0602 (non-significant at alpha=0.05).
+ESM-2 vs Physicochemical LogReg p-value,Paired Family Predictions (N=63),0.0294,0.0294,0.0,REQUIRES_MULTIPLICITY_CORRECTION,Raw p = 0.0294 was reported as significant. Must be corrected to Holm p_adj = 0.0602 (non-significant at alpha=0.05).
+Low-Dimensional PCA (k=18) Generalization Accuracy,Held-Out Cross-Validation vs In-Sample,0.891,0.4388,0.4522,CONTRADICTED_IN_SAMPLE_OVERFITTING,Step 12 reported 89.1% in-sample accuracy. Held-out 5-fold CV collapses to 43.88% Macro-F1.

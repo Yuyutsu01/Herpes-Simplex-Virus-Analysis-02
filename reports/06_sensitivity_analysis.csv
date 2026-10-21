@@ -1,0 +1,4 @@
+model,cohort_a_records,cohort_a_silhouette,cohort_a_dbi,cohort_a_nmi_annotated,cohort_b_records,cohort_b_silhouette,cohort_b_dbi,cohort_b_nmi_annotated,silhouette_delta,nmi_delta
+K-Means (k=20),3111,0.1951,1.6131,0.658,1615,0.1794,1.6297,0.6171,-0.0157,-0.0409
+K-Means (k=50),3111,0.2812,1.4584,0.8498,1615,0.2351,1.5187,0.8099,-0.0462,-0.0399
+K-Means (k=74),3111,0.322,1.3571,0.867,1615,0.3017,1.3512,0.8705,-0.0203,0.0035

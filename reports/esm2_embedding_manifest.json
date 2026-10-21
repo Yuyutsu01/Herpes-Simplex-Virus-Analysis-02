@@ -1,0 +1,50 @@
+{
+  "manifest_version": "1.0.0_esm2_representatives",
+  "timestamp_utc": "2026-10-21T12:11:54.409252+00:00",
+  "model_parameters": {
+    "model_identifier": "facebook/esm2_t12_35M_UR50D",
+    "architecture": "ESM-2 (BERT-style Masked Language Model)",
+    "num_layers": 12,
+    "hidden_dimension": 480,
+    "parameter_count": "35M",
+    "representation_layer": 12,
+    "pooling_strategy": "mean_pooling_excluding_special_tokens",
+    "context_window_limit": 1024,
+    "chunking_policy": {
+      "max_chunk_length": 1022,
+      "stride": 768,
+      "overlap": 254,
+      "aggregation": "length_weighted_average",
+      "silent_truncation": false
+    }
+  },
+  "compute_environment": {
+    "device": "cuda",
+    "gpu_name": "NVIDIA GeForce RTX 4050 Laptop GPU",
+    "torch_version": "2.5.1+cu121",
+    "total_runtime_seconds": 95.82
+  },
+  "cohort_statistics": {
+    "target_cohort": "Representative Cluster Seeds (RETAINED_UNIQUE_CANDIDATE)",
+    "total_sequences_embedded": 3111,
+    "embedding_matrix_shape": [
+      3111,
+      480
+    ],
+    "chunked_sequences_count": 436,
+    "mean_l2_norm": 6.5669,
+    "std_l2_norm": 0.3695
+  },
+  "artifacts": {
+    "embeddings_npy": {
+      "path": "C:\\Users\\shiva\\OneDrive\\Desktop\\Herpes-Simplex-Virus-Analysis-02\\data\\processed\\esm2_t12_representatives_embeddings.npy",
+      "size_mb": 5.7,
+      "sha256": "8255002b8fa464578addad481938a2f5757eaa72566cacda6adcb71522e49abd"
+    },
+    "metadata_csv": {
+      "path": "C:\\Users\\shiva\\OneDrive\\Desktop\\Herpes-Simplex-Virus-Analysis-02\\data\\processed\\esm2_t12_representatives_metadata.csv",
+      "rows": 3111,
+      "sha256": "3b7f4f7fa543f24ee6049945f8851680b5416364494a41bc33e36c34de0efcac"
+    }
+  }
+}

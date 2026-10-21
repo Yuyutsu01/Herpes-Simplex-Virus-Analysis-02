@@ -1,0 +1,197 @@
+{
+  "manifest_version": "1.0.0_step12_interpretation",
+  "timestamp_utc": "2026-10-21T16:39:36.872263+00:00",
+  "random_seed": 42,
+  "input_hashes_sha256": {
+    "08_1_strict_temporal_benchmark.csv": "60ab4442c1ddc676571379b011fb8526ab7f303ae23da9e4dca726255f7d4173",
+    "valid_proteins_metadata.csv": "3ed819df9d8fa9006008af0d5949d5216ef863f7fda8a03b57f365d2f0ede943",
+    "esm2_t12_representatives_metadata.csv": "3b7f4f7fa543f24ee6049945f8851680b5416364494a41bc33e36c34de0efcac",
+    "esm2_t12_representatives_embeddings.npy": "8255002b8fa464578addad481938a2f5757eaa72566cacda6adcb71522e49abd",
+    "09_group_split_manifest.csv": "44c46b4bdd13022b04ea6e6352119b0cbb7923eb259c01e35dd29f0a0aa38065",
+    "10_out_of_fold_predictions.csv": "c6a2b24952656cb04f4484db506c032cdb5d10344e7f29950939682d9db6cbb3"
+  },
+  "embedding_stability_summary": {
+    "mean_fold_pairwise_pearson": 0.7547339200973511,
+    "min_fold_pairwise_pearson": 0.6433085203170776,
+    "max_fold_pairwise_pearson": 0.8481214046478271,
+    "mean_fold_pairwise_spearman": 0.7333214228360365,
+    "top_positive_dimensions": [
+      469,
+      155,
+      419,
+      56,
+      117,
+      464,
+      98,
+      17,
+      164,
+      462
+    ],
+    "top_negative_dimensions": [
+      295,
+      126,
+      279,
+      411,
+      304,
+      316,
+      422,
+      115,
+      85,
+      387
+    ],
+    "core_stable_positive_dimensions": [],
+    "core_stable_negative_dimensions": [
+      304,
+      411,
+      295
+    ]
+  },
+  "multicollinearity_and_geometry": {
+    "covariance_condition_number": 3497065507863691.5,
+    "pcs_for_50_pct_variance": 1,
+    "pcs_for_80_pct_variance": 5,
+    "pcs_for_90_pct_variance": 10,
+    "pcs_for_95_pct_variance": 18,
+    "pcs_for_99_pct_variance": 48,
+    "mean_absolute_pairwise_correlation": 0.35445584750333015,
+    "median_absolute_pairwise_correlation": 0.33101251105178475,
+    "max_absolute_pairwise_correlation": 0.9523442537902941,
+    "fraction_pairs_abs_r_gt_0_50": 0.2842292971468337,
+    "fraction_pairs_abs_r_gt_0_70": 0.0866562282533055,
+    "lasso_active_dimensions_count": 30,
+    "pca_18_components_training_accuracy": 0.9359534206695779
+  },
+  "sequence_association_summary": {
+    "total_tested_features": 28,
+    "features_significant_raw_05": 2,
+    "features_significant_fdr_05": 0,
+    "features_significant_fwer_05": 0,
+    "min_raw_pvalue": 0.027401591936848022,
+    "min_pvalue_feature": "aa_K",
+    "min_bh_fdr_pvalue": 0.49652158497309035
+  },
+  "evidence_tier_stratification": {
+    "TRANSCRIPT_AND_PROTEIN": {
+      "family_count": 52,
+      "pre_replicative_count": 19,
+      "post_replicative_count": 33,
+      "accuracy": 0.8269230769230769,
+      "balanced_accuracy": 0.8189792663476874,
+      "macro_f1": 0.8153846153846154
+    },
+    "TRANSCRIPT": {
+      "family_count": 11,
+      "pre_replicative_count": 4,
+      "post_replicative_count": 7,
+      "accuracy": 0.7272727272727273,
+      "balanced_accuracy": 0.6785714285714286,
+      "macro_f1": 0.6857142857142857
+    },
+    "misclassified_families": [
+      {
+        "homology_group_id": "HOM_UL14",
+        "effective_gene_symbol": "UL14",
+        "true_class": "PRE_REPLICATIVE",
+        "predicted_class": "POST_REPLICATIVE",
+        "measured_molecule": "TRANSCRIPT_AND_PROTEIN",
+        "predicted_prob_pre": 1.190044258692069e-05
+      },
+      {
+        "homology_group_id": "HOM_UL20",
+        "effective_gene_symbol": "UL20",
+        "true_class": "POST_REPLICATIVE",
+        "predicted_class": "PRE_REPLICATIVE",
+        "measured_molecule": "TRANSCRIPT",
+        "predicted_prob_pre": 0.999168649315834
+      },
+      {
+        "homology_group_id": "HOM_UL28",
+        "effective_gene_symbol": "UL28",
+        "true_class": "POST_REPLICATIVE",
+        "predicted_class": "PRE_REPLICATIVE",
+        "measured_molecule": "TRANSCRIPT_AND_PROTEIN",
+        "predicted_prob_pre": 0.5192813177903494
+      },
+      {
+        "homology_group_id": "HOM_UL33",
+        "effective_gene_symbol": "UL33",
+        "true_class": "POST_REPLICATIVE",
+        "predicted_class": "PRE_REPLICATIVE",
+        "measured_molecule": "TRANSCRIPT_AND_PROTEIN",
+        "predicted_prob_pre": 0.6775269448757172
+      },
+      {
+        "homology_group_id": "HOM_UL34",
+        "effective_gene_symbol": "UL34",
+        "true_class": "POST_REPLICATIVE",
+        "predicted_class": "PRE_REPLICATIVE",
+        "measured_molecule": "TRANSCRIPT_AND_PROTEIN",
+        "predicted_prob_pre": 0.6770259737968445
+      },
+      {
+        "homology_group_id": "HOM_UL38",
+        "effective_gene_symbol": "UL38",
+        "true_class": "POST_REPLICATIVE",
+        "predicted_class": "PRE_REPLICATIVE",
+        "measured_molecule": "TRANSCRIPT_AND_PROTEIN",
+        "predicted_prob_pre": 0.9915695190429688
+      },
+      {
+        "homology_group_id": "HOM_UL4",
+        "effective_gene_symbol": "UL4",
+        "true_class": "PRE_REPLICATIVE",
+        "predicted_class": "POST_REPLICATIVE",
+        "measured_molecule": "TRANSCRIPT",
+        "predicted_prob_pre": 0.4893621802330017
+      },
+      {
+        "homology_group_id": "HOM_UL41",
+        "effective_gene_symbol": "UL41",
+        "true_class": "POST_REPLICATIVE",
+        "predicted_class": "PRE_REPLICATIVE",
+        "measured_molecule": "TRANSCRIPT_AND_PROTEIN",
+        "predicted_prob_pre": 0.999600350856781
+      },
+      {
+        "homology_group_id": "HOM_UL52",
+        "effective_gene_symbol": "UL52",
+        "true_class": "PRE_REPLICATIVE",
+        "predicted_class": "POST_REPLICATIVE",
+        "measured_molecule": "TRANSCRIPT_AND_PROTEIN",
+        "predicted_prob_pre": 0.0140450247563421
+      },
+      {
+        "homology_group_id": "HOM_UL53",
+        "effective_gene_symbol": "UL53",
+        "true_class": "PRE_REPLICATIVE",
+        "predicted_class": "POST_REPLICATIVE",
+        "measured_molecule": "TRANSCRIPT",
+        "predicted_prob_pre": 0.00028196713537905
+      },
+      {
+        "homology_group_id": "HOM_US1",
+        "effective_gene_symbol": "US1",
+        "true_class": "PRE_REPLICATIVE",
+        "predicted_class": "POST_REPLICATIVE",
+        "measured_molecule": "TRANSCRIPT_AND_PROTEIN",
+        "predicted_prob_pre": 0.1084935762919485
+      },
+      {
+        "homology_group_id": "HOM_US12",
+        "effective_gene_symbol": "US12",
+        "true_class": "PRE_REPLICATIVE",
+        "predicted_class": "POST_REPLICATIVE",
+        "measured_molecule": "TRANSCRIPT_AND_PROTEIN",
+        "predicted_prob_pre": 0.000178076182237393
+      }
+    ]
+  },
+  "artifact_files_created": [
+    "C:\\Users\\shiva\\OneDrive\\Desktop\\Herpes-Simplex-Virus-Analysis-02\\reports\\12_embedding_coefficient_stability.csv",
+    "C:\\Users\\shiva\\OneDrive\\Desktop\\Herpes-Simplex-Virus-Analysis-02\\reports\\12_feature_association.csv",
+    "C:\\Users\\shiva\\OneDrive\\Desktop\\Herpes-Simplex-Virus-Analysis-02\\reports\\12_sequence_level_diagnostics.csv",
+    "C:\\Users\\shiva\\OneDrive\\Desktop\\Herpes-Simplex-Virus-Analysis-02\\reports\\12_representation_interpretation.md",
+    "C:\\Users\\shiva\\OneDrive\\Desktop\\Herpes-Simplex-Virus-Analysis-02\\reports\\12_validation_and_limitations.md",
+    "C:\\Users\\shiva\\OneDrive\\Desktop\\Herpes-Simplex-Virus-Analysis-02\\reports\\12_reproducibility_manifest.json"
+  ]
+}

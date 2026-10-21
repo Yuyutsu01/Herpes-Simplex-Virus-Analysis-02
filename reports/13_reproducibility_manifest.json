@@ -1,0 +1,34 @@
+{
+  "manifest_version": "1.0.0_step13_independent_validation",
+  "timestamp_utc": "2026-10-21T17:15:16.462246+00:00",
+  "random_seed": 42,
+  "input_hashes_sha256": {
+    "08_1_strict_temporal_benchmark.csv": "60ab4442c1ddc676571379b011fb8526ab7f303ae23da9e4dca726255f7d4173",
+    "valid_proteins_metadata.csv": "3ed819df9d8fa9006008af0d5949d5216ef863f7fda8a03b57f365d2f0ede943",
+    "esm2_t12_representatives_metadata.csv": "3b7f4f7fa543f24ee6049945f8851680b5416364494a41bc33e36c34de0efcac",
+    "esm2_t12_representatives_embeddings.npy": "8255002b8fa464578addad481938a2f5757eaa72566cacda6adcb71522e49abd",
+    "09_group_split_manifest.csv": "44c46b4bdd13022b04ea6e6352119b0cbb7923eb259c01e35dd29f0a0aa38065",
+    "08_temporal_evidence_sources.csv": "b3f47449364140cbb8f3888e36ae26705e3bc2da7c9f24b7587a513423af7549",
+    "08_temporal_gene_evidence.csv": "b1a1a580708abe600dc43821e3c0174a440e079fdde325840b1fa3be1bc2bdb1",
+    "10_out_of_fold_predictions.csv": "c6a2b24952656cb04f4484db506c032cdb5d10344e7f29950939682d9db6cbb3"
+  },
+  "deliverables_generated": [
+    "C:\\Users\\shiva\\OneDrive\\Desktop\\Herpes-Simplex-Virus-Analysis-02\\reports\\13_hardcoding_and_provenance_audit.csv",
+    "C:\\Users\\shiva\\OneDrive\\Desktop\\Herpes-Simplex-Virus-Analysis-02\\reports\\13_data_integrity_audit.csv",
+    "C:\\Users\\shiva\\OneDrive\\Desktop\\Herpes-Simplex-Virus-Analysis-02\\reports\\13_temporal_evidence_adjudication.csv",
+    "C:\\Users\\shiva\\OneDrive\\Desktop\\Herpes-Simplex-Virus-Analysis-02\\reports\\13_family_split_audit.csv",
+    "C:\\Users\\shiva\\OneDrive\\Desktop\\Herpes-Simplex-Virus-Analysis-02\\reports\\13_retrained_oof_predictions.csv",
+    "C:\\Users\\shiva\\OneDrive\\Desktop\\Herpes-Simplex-Virus-Analysis-02\\reports\\13_recomputed_model_metrics.csv",
+    "C:\\Users\\shiva\\OneDrive\\Desktop\\Herpes-Simplex-Virus-Analysis-02\\reports\\13_family_level_metrics.csv",
+    "C:\\Users\\shiva\\OneDrive\\Desktop\\Herpes-Simplex-Virus-Analysis-02\\reports\\13_statistical_inference.csv",
+    "C:\\Users\\shiva\\OneDrive\\Desktop\\Herpes-Simplex-Virus-Analysis-02\\reports\\13_external_validation_feasibility.md",
+    "C:\\Users\\shiva\\OneDrive\\Desktop\\Herpes-Simplex-Virus-Analysis-02\\reports\\13_reproducibility_manifest.json"
+  ],
+  "audit_verdicts": {
+    "no_hardcoding_policy": "VERIFIED_ALL_METRICS_COMPUTED_DYNAMICALLY",
+    "model_retraining": "EXACT_REPRODUCIBILITY_ZERO_SEED_DRIFT",
+    "family_held_out_protocol": "VERIFIED_ZERO_LEAKAGE_ALL_FOLDS",
+    "statistical_multiplicity": "HOLM_CORRECTION_ENFORCED_ONLY_DUMMY_SIGNIFICANT",
+    "external_validation": "FEASIBILITY_DOCUMENTED_NO_SYNTHETIC_DATA_FABRICATED"
+  }
+}

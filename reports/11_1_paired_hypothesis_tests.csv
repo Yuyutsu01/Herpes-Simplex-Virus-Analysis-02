@@ -1,0 +1,6 @@
+comparison,baseline_label,both_correct_a,esm2_only_correct_b,baseline_only_correct_c,both_incorrect_d,total_discordant_pairs,mcnemar_exact_raw_pvalue,holm_adjusted_pvalue,significant_raw_05,significant_holm_05,statistical_conclusion
+ridge_esm2 vs fixed_family_majority,Fixed Family Majority,34,17,6,6,23,0.03468966484069824,0.08834812045097351,True,False,"Nominally significant (raw p < 0.05), but does NOT survive Holm-Bonferroni correction at alpha=0.05"
+ridge_esm2 vs dummy_majority,Fold-Specific Sequence Majority,25,26,5,7,31,0.00019219517707824707,0.0009609758853912354,True,True,Statistically significant under FWER control (p_adj < 0.05)
+ridge_esm2 vs logreg_physicochemical,Physicochemical Logistic Regression,29,22,9,3,31,0.029449373483657837,0.08834812045097351,True,False,"Nominally significant (raw p < 0.05), but does NOT survive Holm-Bonferroni correction at alpha=0.05"
+ridge_esm2 vs rf_physicochemical,Physicochemical Random Forest,28,23,9,3,32,0.020061607006937265,0.08024642802774906,True,False,"Nominally significant (raw p < 0.05), but does NOT survive Holm-Bonferroni correction at alpha=0.05"
+ridge_esm2 vs combined_phys_esm2,Combined (Physicochemical + ESM-2),49,2,0,12,2,0.5,0.5,False,False,"Not statistically significant (raw p >= 0.05, p_adj >= 0.05)"

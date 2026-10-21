@@ -1,0 +1,6 @@
+fold_index,validation_sequences,training_sequences,validation_families,training_families,validation_pre_families,validation_post_families,training_pre_families,training_post_families,validation_pre_sequences,validation_post_sequences,both_binary_classes_present,feasibility_status
+0,290,397,19,44,6,13,17,27,227,63,True,FEASIBLE_BINARY_TASK
+1,101,586,9,54,5,4,18,36,19,82,True,FEASIBLE_BINARY_TASK
+2,107,580,11,52,2,9,21,31,44,63,True,FEASIBLE_BINARY_TASK
+3,89,598,11,52,4,7,19,33,24,65,True,FEASIBLE_BINARY_TASK
+4,100,587,13,50,6,7,17,33,36,64,True,FEASIBLE_BINARY_TASK

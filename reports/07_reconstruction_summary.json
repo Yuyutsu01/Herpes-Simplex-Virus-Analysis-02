@@ -1,0 +1,57 @@
+{
+  "status": "PASS_EXACT_REPRODUCIBILITY",
+  "timestamp_utc": "2026-10-21T13:08:49.018444+00:00",
+  "input_hashes": {
+    "embeddings_npy": "8255002b8fa464578addad481938a2f5757eaa72566cacda6adcb71522e49abd",
+    "representatives_metadata_csv": "3b7f4f7fa543f24ee6049945f8851680b5416364494a41bc33e36c34de0efcac",
+    "coordinates_csv": "2f3250f8657ce0ebe91399e2f3bc6e87e2bef70ff39477e527c99e0c1dfef378",
+    "cluster_membership_csv": "dd19447ea6615d6114ad4d55dfde5ade2a8903c61e8067baa74879194a717610"
+  },
+  "recomputed_vs_reported": {
+    "pc1_explained_variance_pct": {
+      "recomputed": 22.14,
+      "reported": 22.14,
+      "delta": 0.0
+    },
+    "pc2_explained_variance_pct": {
+      "recomputed": 16.14,
+      "reported": 16.14,
+      "delta": 0.0
+    },
+    "top50_cumulative_variance_pct": {
+      "recomputed": 96.11,
+      "reported": 96.11,
+      "delta": 0.0
+    },
+    "kmeans_k74_silhouette": {
+      "recomputed": 0.322,
+      "reported": 0.322,
+      "delta": 0.0
+    },
+    "kmeans_k74_nmi_genes": {
+      "recomputed": 0.867,
+      "reported": 0.867,
+      "delta": 0.0
+    },
+    "kmeans_k74_ari_genes": {
+      "recomputed": 0.6581,
+      "reported": 0.6581,
+      "delta": 0.0
+    },
+    "species_nmi": {
+      "recomputed": 0.0843,
+      "reported": 0.0843,
+      "delta": 0.0
+    },
+    "species_ari": {
+      "recomputed": 0.0204,
+      "reported": 0.0204,
+      "delta": 0.0
+    },
+    "ortholog_coclustering_rate_pct": {
+      "recomputed": 82.43,
+      "reported": 82.43,
+      "delta": 0.0
+    }
+  }
+}

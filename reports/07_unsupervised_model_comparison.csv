@@ -1,0 +1,74 @@
+representation,algorithm,parameters,n_clusters,noise_points,noise_fraction_pct,singleton_clusters,silhouette_score,davies_bouldin_index,calinski_harabasz_index,min_cluster_size,median_cluster_size,max_cluster_size
+PCA_50 (Primary Latent),K-Means,k=10,10,0,0.0,0,0.1837,1.7296,428.96,32,190.0,1030
+PCA_50 (Primary Latent),K-Means,k=20,20,0,0.0,0,0.1951,1.6131,314.81,7,125.0,577
+PCA_50 (Primary Latent),K-Means,k=30,30,0,0.0,0,0.2139,1.6928,261.69,16,89.5,278
+PCA_50 (Primary Latent),K-Means,k=40,40,0,0.0,0,0.262,1.512,234.96,17,63.0,246
+PCA_50 (Primary Latent),K-Means,k=50,50,0,0.0,0,0.2812,1.4584,218.67,14,44.5,196
+PCA_50 (Primary Latent),K-Means,k=60,60,0,0.0,0,0.3016,1.4107,210.53,7,38.0,137
+PCA_50 (Primary Latent),K-Means,k=74,74,0,0.0,0,0.322,1.3571,195.56,6,35.5,116
+PCA_50 (Primary Latent),K-Means,k=80,80,0,0.0,0,0.3432,1.3046,193.98,4,33.5,128
+PCA_50 (Primary Latent),K-Means,k=100,100,0,0.0,0,0.3638,1.2232,184.79,4,26.5,116
+PCA_50 (Primary Latent),K-Means,k=120,120,0,0.0,0,0.3597,1.2545,176.33,3,21.5,99
+PCA_50 (Primary Latent),K-Means,k=150,150,0,0.0,0,0.3671,1.2201,164.14,2,18.0,99
+PCA_20 (Compact Latent),K-Means,k=10,10,0,0.0,0,0.209,1.5806,554.5,34,233.0,1034
+PCA_20 (Compact Latent),K-Means,k=20,20,0,0.0,0,0.2218,1.5004,430.62,31,127.5,405
+PCA_20 (Compact Latent),K-Means,k=30,30,0,0.0,0,0.2438,1.4373,363.12,32,93.0,272
+PCA_20 (Compact Latent),K-Means,k=40,40,0,0.0,0,0.2624,1.4212,321.67,14,55.5,238
+PCA_20 (Compact Latent),K-Means,k=50,50,0,0.0,0,0.298,1.3422,306.22,14,50.5,204
+PCA_20 (Compact Latent),K-Means,k=60,60,0,0.0,0,0.3178,1.2907,289.57,14,40.5,153
+PCA_20 (Compact Latent),K-Means,k=74,74,0,0.0,0,0.3124,1.2644,272.95,6,37.5,100
+PCA_20 (Compact Latent),K-Means,k=80,80,0,0.0,0,0.3124,1.29,264.4,5,32.5,154
+PCA_20 (Compact Latent),K-Means,k=100,100,0,0.0,0,0.3399,1.2356,250.89,5,28.0,99
+PCA_20 (Compact Latent),K-Means,k=120,120,0,0.0,0,0.3586,1.2033,238.31,2,22.5,99
+PCA_20 (Compact Latent),K-Means,k=150,150,0,0.0,0,0.36,1.1934,220.01,2,16.5,99
+Scaled_ESM2_480d,K-Means,k=10,10,0,0.0,0,0.1783,1.7498,392.24,32,256.5,1003
+Scaled_ESM2_480d,K-Means,k=20,20,0,0.0,0,0.1858,1.7017,282.46,32,103.0,456
+Scaled_ESM2_480d,K-Means,k=30,30,0,0.0,0,0.206,1.6285,232.28,27,73.5,421
+Scaled_ESM2_480d,K-Means,k=40,40,0,0.0,0,0.2349,1.611,206.22,16,64.5,212
+Scaled_ESM2_480d,K-Means,k=50,50,0,0.0,0,0.2659,1.5178,191.54,13,46.5,168
+Scaled_ESM2_480d,K-Means,k=60,60,0,0.0,0,0.283,1.4404,179.56,7,43.0,219
+Scaled_ESM2_480d,K-Means,k=74,74,0,0.0,0,0.3058,1.4415,169.15,6,37.0,117
+Scaled_ESM2_480d,K-Means,k=80,80,0,0.0,0,0.3262,1.3807,166.72,5,33.0,151
+Scaled_ESM2_480d,K-Means,k=100,100,0,0.0,0,0.3302,1.3618,155.66,6,28.0,100
+Scaled_ESM2_480d,K-Means,k=120,120,0,0.0,0,0.3447,1.3105,149.61,4,22.5,100
+Scaled_ESM2_480d,K-Means,k=150,150,0,0.0,0,0.3611,1.2716,138.75,2,18.0,100
+Raw_ESM2_480d,K-Means,k=10,10,0,0.0,0,0.1773,1.7566,564.76,105,222.0,954
+Raw_ESM2_480d,K-Means,k=20,20,0,0.0,0,0.198,1.5898,407.9,30,134.0,434
+Raw_ESM2_480d,K-Means,k=30,30,0,0.0,0,0.2207,1.5276,332.46,15,87.0,324
+Raw_ESM2_480d,K-Means,k=40,40,0,0.0,0,0.2355,1.5604,290.14,6,67.5,215
+Raw_ESM2_480d,K-Means,k=50,50,0,0.0,0,0.2601,1.5418,265.31,14,51.0,154
+Raw_ESM2_480d,K-Means,k=60,60,0,0.0,0,0.2787,1.4634,248.1,9,38.5,124
+Raw_ESM2_480d,K-Means,k=74,74,0,0.0,0,0.3101,1.3687,229.02,4,33.5,136
+Raw_ESM2_480d,K-Means,k=80,80,0,0.0,0,0.2975,1.3533,227.43,6,31.5,182
+Raw_ESM2_480d,K-Means,k=100,100,0,0.0,0,0.3363,1.3067,213.63,4,28.0,98
+Raw_ESM2_480d,K-Means,k=120,120,0,0.0,0,0.3466,1.3037,201.22,5,22.5,98
+Raw_ESM2_480d,K-Means,k=150,150,0,0.0,0,0.3482,1.2989,185.14,2,18.5,85
+Physicochemical_10d,K-Means,k=10,10,0,0.0,0,0.2229,1.3802,755.14,49,278.5,665
+Physicochemical_10d,K-Means,k=20,20,0,0.0,0,0.2478,1.3482,578.78,48,136.5,319
+Physicochemical_10d,K-Means,k=30,30,0,0.0,0,0.2704,1.248,495.87,13,87.5,299
+Physicochemical_10d,K-Means,k=40,40,0,0.0,0,0.2884,1.2293,457.67,4,77.0,151
+Physicochemical_10d,K-Means,k=50,50,0,0.0,0,0.3139,1.1241,437.03,4,59.0,133
+Physicochemical_10d,K-Means,k=60,60,0,0.0,1,0.3279,1.0815,419.02,1,43.0,116
+Physicochemical_10d,K-Means,k=74,74,0,0.0,1,0.3337,1.1007,402.03,1,38.5,115
+Physicochemical_10d,K-Means,k=80,80,0,0.0,1,0.3482,1.0828,395.42,1,35.5,115
+Physicochemical_10d,K-Means,k=100,100,0,0.0,1,0.3463,1.1106,377.64,1,28.5,99
+Physicochemical_10d,K-Means,k=120,120,0,0.0,1,0.3553,1.0681,362.08,1,22.5,91
+Physicochemical_10d,K-Means,k=150,150,0,0.0,1,0.3492,1.0944,336.9,1,19.0,85
+PCA_50 (Primary Latent),Agglomerative (ward),k=20,20,0,0.0,0,0.1904,1.6758,293.29,26,125.5,537
+PCA_50 (Primary Latent),Agglomerative (ward),k=50,50,0,0.0,0,0.2777,1.4425,213.46,4,48.5,206
+PCA_50 (Primary Latent),Agglomerative (ward),k=74,74,0,0.0,0,0.3296,1.398,192.74,4,35.0,126
+PCA_50 (Primary Latent),Agglomerative (ward),k=100,100,0,0.0,0,0.3484,1.3191,181.84,4,28.5,98
+PCA_50 (Primary Latent),Agglomerative (average),k=20,20,0,0.0,1,0.2412,1.241,162.98,1,18.0,2235
+PCA_50 (Primary Latent),Agglomerative (average),k=50,50,0,0.0,9,0.1738,1.1605,103.08,1,11.0,1790
+PCA_50 (Primary Latent),Agglomerative (average),k=74,74,0,0.0,14,0.1962,1.1383,90.62,1,5.5,1517
+PCA_50 (Primary Latent),Agglomerative (average),k=100,100,0,0.0,22,0.1877,1.0795,74.48,1,5.0,1515
+PCA_50 (Primary Latent),Agglomerative (complete),k=20,20,0,0.0,0,0.152,1.7063,193.59,4,69.5,1897
+PCA_50 (Primary Latent),Agglomerative (complete),k=50,50,0,0.0,0,0.1607,1.6587,136.76,2,21.0,655
+PCA_50 (Primary Latent),Agglomerative (complete),k=74,74,0,0.0,1,0.1967,1.5698,123.67,1,15.0,482
+PCA_50 (Primary Latent),Agglomerative (complete),k=100,100,0,0.0,2,0.2474,1.4271,121.34,1,12.0,427
+PCA_50 (Primary Latent),HDBSCAN,"min_cluster_size=10,min_samples=5",94,591,19.0,0,0.4755,0.8762,272.58,10,23.0,130
+PCA_50 (Primary Latent),HDBSCAN,"min_cluster_size=15,min_samples=5",74,697,22.4,0,0.4747,0.8991,303.76,16,28.5,130
+PCA_50 (Primary Latent),HDBSCAN,"min_cluster_size=20,min_samples=5",61,854,27.45,0,0.4701,0.9079,290.84,20,32.0,130
+PCA_50 (Primary Latent),HDBSCAN,"min_cluster_size=25,min_samples=5",50,1073,34.49,0,0.4716,0.8975,319.56,25,34.5,130
+PCA_50 (Primary Latent),HDBSCAN,"min_cluster_size=35,min_samples=5",27,1250,40.18,0,0.3902,1.1251,321.19,35,48.0,167
+PCA_50 (Primary Latent),HDBSCAN,"min_cluster_size=50,min_samples=5",2,19,0.61,0,0.3635,0.6524,362.44,115,1546.0,2977

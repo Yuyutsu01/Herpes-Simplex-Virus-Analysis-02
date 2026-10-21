@@ -1,0 +1,35 @@
+{
+  "audit_version": "1.0.0_step8_universe",
+  "timestamp_utc": "2026-10-21T13:25:29.946939+00:00",
+  "cohort_definition": {
+    "name": "Frozen Representative Cohort (Cohort A)",
+    "total_records": 3111,
+    "hsv1_records": 1124,
+    "hsv2_records": 1987,
+    "species_conflict_count": 0
+  },
+  "gene_annotation_status": {
+    "explicitly_annotated_records": 1622,
+    "distinct_canonical_gene_symbols": 74,
+    "nominally_unannotated_records": 1489,
+    "unannotated_with_descriptive_product_text": 199,
+    "true_uncharacterized_orfs": 1290,
+    "complex_nested_loci_records": 409,
+    "complex_nested_loci_breakdown": {
+      "RS1": 212,
+      "RL1": 135,
+      "UL26.5": 38,
+      "RL2": 21,
+      "UL26": 3
+    }
+  },
+  "canonical_ortholog_status": {
+    "canonical_ortholog_gene_pairs_in_step4": 74,
+    "canonical_genes_present_in_representatives": 74
+  },
+  "input_checksums": {
+    "representatives_metadata_csv": "3b7f4f7fa543f24ee6049945f8851680b5416364494a41bc33e36c34de0efcac",
+    "gene_label_audit_csv": "ab33388ac248be5b15d1915620b889c69b8fcbaa8454d7af61533318fab947b3",
+    "hsv1_hsv2_relationships_csv": "fc31fb8897232a1eccbb30f834a2382d2ea8fbdcb6d4e8c16944a1c9eed29a3a"
+  }
+}

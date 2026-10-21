@@ -1,0 +1,131 @@
+{
+  "audit_timestamp_utc": "2026-10-21T11:41:44.724133+00:00",
+  "step": "Step 4 Independent Evidence Audit (v2.1.0 Remediated)",
+  "scientific_acceptance_verdict": {
+    "step4_ready_to_freeze": true,
+    "acceptance_criteria_results": {
+      "raw_fasta_integrity": true,
+      "coverage_mathematics_fixed": true,
+      "algorithm_accurately_described": true,
+      "ul26_5_token_disambiguated": true,
+      "natural_small_proteins_preserved": true,
+      "aew27163_cross_file_conflict_resolved": true,
+      "all_74_canonical_ortholog_pairs_audited": true,
+      "zero_severe_length_asymmetries": true,
+      "universal_1_to_1_record_accounting": true
+    }
+  },
+  "section_a_taxonomy": {
+    "eligible_total_records": 18172,
+    "taxonomy_status_breakdown": {
+      "PROVISIONAL_TARGET_GENBANK_HEADER": 11706,
+      "PROVISIONAL_TARGET_UNANNOTATED": 5997,
+      "AUTHORITATIVE_ACCESSION_VERIFIED": 469
+    },
+    "evidence_source_breakdown": {
+      "Explicit_FASTA_Header": 17703,
+      "NCBI_Protein": 436,
+      "UniProtKB": 23,
+      "NCBI_RefSeq": 10
+    },
+    "authoritative_accession_verified_count": 469,
+    "provisional_genbank_header_count": 11706,
+    "provisional_unannotated_count": 5997,
+    "unannotated_eligible_count": 6016,
+    "annotated_canonical_eligible_count": 12156,
+    "effective_species_breakdown": {
+      "HSV1": 9454,
+      "HSV2": 8718
+    },
+    "aew27163_effective_species": "HSV1",
+    "aew27163_conflict_resolved": true
+  },
+  "section_b_clustering": {
+    "algorithm": "Custom Greedy Incremental Alignment-Based Clustering (CD-HIT style heuristic in Python)",
+    "clusters_count": 3111,
+    "unique_candidates_count": 3111,
+    "valid_variants_count": 15061,
+    "metrics": {
+      "synthetic_benchmarks": {
+        "exact_match_100aa": {
+          "identity_pct": 100.0,
+          "query_coverage": 100.0,
+          "target_coverage": 100.0,
+          "passed": true
+        },
+        "boundary_95pct": {
+          "identity_pct": 95.0,
+          "expected": 95.0,
+          "passed": true
+        },
+        "sub_threshold_94pct": {
+          "identity_pct": 94.0,
+          "expected": 94.0,
+          "properly_rejected_at_95_cutoff": true
+        },
+        "fragment_50_vs_200": {
+          "query_coverage": 100.0,
+          "target_coverage": 25.0,
+          "bidirectional_coverage": 25.0,
+          "properly_flagged_as_fragment": true
+        }
+      },
+      "pairwise_comparisons_audited": 15061,
+      "all_pairs_meet_95pct_identity": true,
+      "all_pairs_meet_90pct_bidi_coverage": true,
+      "coverage_math_fixed_non_tautological": true
+    }
+  },
+  "section_c_orthology": {
+    "total_canonical_pairs_audited": 74,
+    "all_74_canonical_genes_present": true,
+    "missing_canonical_genes": [],
+    "supported_ortholog_candidate_count": 69,
+    "putative_homolog_unresolved_count": 4,
+    "annotation_only_candidate_count": 1,
+    "high_confidence_count": 69,
+    "medium_confidence_count": 4,
+    "low_confidence_count": 1,
+    "severe_length_asymmetries_count": 0
+  },
+  "section_d_dispositions": {
+    "total_raw_records": 22710,
+    "compound_keys_unique": 22710,
+    "one_to_one_accounting_verified": true,
+    "final_disposition_breakdown": {
+      "RETAINED_VALID_VARIANT": 15061,
+      "RETAINED_FRAGMENT_SEPARATE_ANALYSIS": 3211,
+      "RETAINED_UNIQUE_CANDIDATE": 3111,
+      "EXCLUDED_CONFIRMED_NON_TARGET": 1043,
+      "QUARANTINED_UNVERIFIED": 254,
+      "QUARANTINED_TAXONOMY_CONFLICT": 30
+    },
+    "ul26_5_disambiguation": {
+      "ul26_5_records": 208,
+      "ul26_records": 108,
+      "disambiguated": true
+    },
+    "natural_small_proteins_preservation": {
+      "UL11": {
+        "eligible_full_length": 21,
+        "fragments": 1
+      },
+      "UL49A": {
+        "eligible_full_length": 52,
+        "fragments": 2
+      },
+      "US5": {
+        "eligible_full_length": 86,
+        "fragments": 6
+      },
+      "US9": {
+        "eligible_full_length": 53,
+        "fragments": 6
+      },
+      "US12": {
+        "eligible_full_length": 72,
+        "fragments": 20
+      }
+    }
+  }
+}

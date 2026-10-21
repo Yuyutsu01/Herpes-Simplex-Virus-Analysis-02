@@ -1,0 +1,33 @@
+{
+  "manifest_version": "14.0.0",
+  "timestamp_utc": "2026-10-21T23:25:00Z",
+  "working_title": "Temporal Organization and Evolutionary Conservation of the HSV-1 and HSV-2 Proteomes",
+  "input_checksums": {
+    "08_1_strict_temporal_benchmark.csv": "60ab4442c1ddc676571379b011fb8526ab7f303ae23da9e4dca726255f7d4173",
+    "09_group_split_manifest.csv": "44c46b4bdd13022b04ea6e6352119b0cbb7923eb259c01e35dd29f0a0aa38065",
+    "esm2_t12_representatives_metadata.csv": "3b7f4f7fa543f24ee6049945f8851680b5416364494a41bc33e36c34de0efcac",
+    "13_1_independently_recomputed_metrics.csv": "c2ded33c2e7b44aed42c2c68784e9404b071c84d4584dc427b9c4f9040a112ee",
+    "13_1_statistical_reconciliation.csv": "fce15c0e942e00f82c02b80d318df5b3d3bc0b39e93a2d719eec910432cb7439"
+  },
+  "verified_manuscript_quantities": {
+    "total_raw_records": 22710,
+    "valid_full_length_records": 18172,
+    "unique_representatives": 3111,
+    "canonical_gene_families": 74,
+    "direct_evidence_records": 687,
+    "direct_evidence_families": 63,
+    "rs1_record_count": 212,
+    "rs1_fold_assignment": 0,
+    "supervised_predictive_features": 8,
+    "esm2_dimensions": 480,
+    "combined_features": 488,
+    "ridge_esm2_family_macro_f1": 0.7946,
+    "ridge_esm2_family_balanced_acc": 0.7946,
+    "ridge_esm2_family_accuracy": 0.8095,
+    "mcnemar_dummy_p_adj": 0.000769,
+    "mcnemar_rf_p_adj": 0.0602,
+    "mcnemar_lr_p_adj": 0.0602
+  },
+  "publication_readiness_verdict": "READY_FOR_INTERNAL_REVIEW_WITH_CORRECTIONS_APPLIED",
+  "external_validation_status": "FEASIBILITY_DOCUMENTED_NO_SYNTHETIC_DATA_FABRICATED"
+}

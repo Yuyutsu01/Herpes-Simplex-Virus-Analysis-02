@@ -1,0 +1,31 @@
+{
+  "manifest_version": "13.1.0",
+  "timestamp_utc": "2026-10-21T23:05:00Z",
+  "random_seed": 42,
+  "input_files_sha256": {
+    "08_1_strict_temporal_benchmark.csv": "60ab4442c1ddc676571379b011fb8526ab7f303ae23da9e4dca726255f7d4173",
+    "09_group_split_manifest.csv": "44c46b4bdd13022b04ea6e6352119b0cbb7923eb259c01e35dd29f0a0aa38065",
+    "esm2_t12_representatives_metadata.csv": "3b7f4f7fa543f24ee6049945f8851680b5416364494a41bc33e36c34de0efcac",
+    "esm2_t12_representatives_mean_pooled.npy": "8255002b8fa464578addad481938a2f5757eaa72566cacda6adcb71522e49abd",
+    "10_out_of_fold_predictions.csv": "c6a2b24952656cb04f4484db506c032cdb5d10344e7f29950939682d9db6cbb3",
+    "13_retrained_oof_predictions.csv": "adcb96b6c3673c3f0249ea0e936f213b01486508cf99695b690d3ddaf3f63e1c"
+  },
+  "verified_parameters": {
+    "logistic_regression_C": 1.0,
+    "physicochemical_features_count": 8,
+    "esm2_embedding_dimensions": 480,
+    "combined_feature_dimensions": 488,
+    "rs1_record_count": 212,
+    "rs1_fold_assignment": 0,
+    "direct_cohort_sequences": 687,
+    "direct_cohort_families": 63
+  },
+  "audit_discrepancy_resolutions": {
+    "rs1_fold_discrepancy": "Resolved: RS1 contains exactly 212 records assigned to Fold 0 validation. The Step 13 textual reference to 447 sequences in Fold 3 was a typographical error in the narrative.",
+    "hyperparameter_C_discrepancy": "Resolved: Both scripts/10 and scripts/13 executed LogisticRegression with C=1.0. The Step 13 textual reference to C=0.1 was a narrative typo.",
+    "feature_dimension_discrepancy": "Resolved: Supervised baseline classifiers strictly use 8 bulk physicochemical descriptors (combined dimension 488). The figure of 28 features (hypothetical combined dimension 508) originated in Step 12's univariate sequence composition analysis (20 AA + 8 bulk descriptors).",
+    "hardcoding_audit": "Zero hardcoded metrics found in execution scripts; dynamic generation enforced.",
+    "statistical_multiplicity": "Holm correction enforced across 4 comparisons; physicochemical comparisons non-significant under FWER (p_adj = 0.0602)."
+  },
+  "execution_status": "COMPLETED_SUCCESS"
+}

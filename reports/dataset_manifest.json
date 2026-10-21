@@ -1,0 +1,88 @@
+{
+  "manifest_version": "1.0",
+  "timestamp_utc": "2026-10-20T18:56:06.426176+00:00",
+  "script_version": "1.0.0",
+  "environment": {
+    "python_version": "3.11.8 (tags/v3.11.8:db85d51, Feb  6 2024, 22:03:32) [MSC v.1937 64 bit (AMD64)]",
+    "biopython_available": true,
+    "biopython_version": "1.88"
+  },
+  "input_files": {
+    "data\\raw\\hsv1.fasta": {
+      "file_size_bytes": 7954295,
+      "sha256": "15001269a835b41223467e0d91bdcada433ee68c6a58c19e684c060483b31f36",
+      "record_count": 12170,
+      "unique_sequence_count": 12170
+    },
+    "data\\raw\\hsv2.fasta": {
+      "file_size_bytes": 7095643,
+      "sha256": "86c9d627286aa4cad121af4c84cdb39b824c14905aa57948de9a996955ca0311",
+      "record_count": 10540,
+      "unique_sequence_count": 10540
+    }
+  },
+  "combined_inventory": {
+    "total_records_processed": 22710,
+    "unique_full_sequences": 22689,
+    "cross_file_shared_sequences": 21,
+    "records_involved_in_cross_file_shared_sequences": 42,
+    "total_duplicate_records": 42,
+    "flagged_records_count": 11324,
+    "flagged_records_percentage": 49.86
+  },
+  "sequence_length_statistics": {
+    "hsv1": {
+      "count": 12170,
+      "min": 1,
+      "max": 3397,
+      "mean": 585.2519309778143,
+      "median": 417.0,
+      "std": 557.0444665205392,
+      "shorter_than_50_count": 265,
+      "shorter_than_50_pct": 2.1774856203779787,
+      "shorter_than_100_count": 929,
+      "shorter_than_100_pct": 7.633525061626951,
+      "longer_than_3000_count": 329,
+      "longer_than_3000_pct": 2.703368940016434
+    },
+    "hsv2": {
+      "count": 10540,
+      "min": 1,
+      "max": 6165,
+      "mean": 602.2526565464896,
+      "median": 467.0,
+      "std": 559.6184594261647,
+      "shorter_than_50_count": 223,
+      "shorter_than_50_pct": 2.1157495256166983,
+      "shorter_than_100_count": 861,
+      "shorter_than_100_pct": 8.16888045540797,
+      "longer_than_3000_count": 298,
+      "longer_than_3000_pct": 2.8273244781783684
+    },
+    "combined": {
+      "count": 22710,
+      "min": 1,
+      "max": 6165,
+      "mean": 593.1421840598855,
+      "median": 420.0,
+      "std": 558.3049459539936,
+      "shorter_than_50_count": 488,
+      "shorter_than_50_pct": 2.148833113166006,
+      "shorter_than_100_count": 1790,
+      "shorter_than_100_pct": 7.881990312637605,
+      "longer_than_3000_count": 627,
+      "longer_than_3000_pct": 2.760898282694848
+    }
+  },
+  "output_artifacts": {
+    "sequence_inventory_csv": "reports\\sequence_inventory.csv",
+    "duplicate_sequence_summary_csv": "reports\\duplicate_sequence_summary.csv",
+    "dataset_manifest_json": "reports\\dataset_manifest.json",
+    "human_readable_report_md": "reports\\01_initial_fasta_audit.md"
+  },
+  "validation_status": {
+    "all_records_accounted_for": true,
+    "input_files_unchanged": true,
+    "errors": []
+  }
+}

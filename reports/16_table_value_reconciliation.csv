@@ -1,0 +1,9 @@
+table_id,metric_name,table_value,source_value,source_artifact,reconciliation_status
+Table 1,Universal Total Records,"22,710",22710,reports/04_redundancy_decisions.csv,EXACT_MATCH
+Table 1,Valid Primary Candidates,"18,172",18172,reports/04_redundancy_decisions.csv,EXACT_MATCH
+Table 1,Representative Seeds (95% ID),"3,111",3111,reports/04_redundancy_decisions.csv,EXACT_MATCH
+Table 3,ESM-2 Family BalAcc,79.46%,79.46%,reports/15_metric_independent_recheck.csv,EXACT_MATCH
+Table 3,ESM-2 Family Macro-F1,0.7946,0.7946,reports/15_metric_independent_recheck.csv,EXACT_MATCH
+Table 3,ESM-2 Family Accuracy,80.95%,80.95%,reports/15_metric_independent_recheck.csv,EXACT_MATCH
+Table 4,ESM-2 vs Maj McNemar Raw p,0.000192,0.000192,reports/11_1_paired_hypothesis_tests.csv,EXACT_MATCH
+Table 4,ESM-2 vs Phys Holm p_adj,0.060185,0.060185,reports/15_metric_independent_recheck.csv,EXACT_MATCH

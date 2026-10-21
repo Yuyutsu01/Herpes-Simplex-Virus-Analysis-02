@@ -1,0 +1,69 @@
+{
+  "dummy_majority": {
+    "model_type": "DummyClassifier",
+    "strategy": "most_frequent",
+    "feature_set": "None (Majority label)",
+    "description": "Empirical baseline floor predicting the most frequent class in the training fold."
+  },
+  "logreg_physicochemical": {
+    "model_type": "LogisticRegression",
+    "penalty": "l2",
+    "C": 1.0,
+    "solver": "lbfgs",
+    "max_iter": 1000,
+    "random_state": 42,
+    "scaling": "StandardScaler (fitted on training fold only)",
+    "feature_set": [
+      "sequence_length",
+      "molecular_weight",
+      "isoelectric_point",
+      "instability_index",
+      "aliphatic_index",
+      "gravy",
+      "charged_fraction",
+      "aromatic_fraction"
+    ],
+    "description": "Linear classifier trained on 8 classical bulk physicochemical descriptors."
+  },
+  "rf_physicochemical": {
+    "model_type": "RandomForestClassifier",
+    "n_estimators": 100,
+    "max_depth": 5,
+    "min_samples_leaf": 3,
+    "random_state": 42,
+    "scaling": "None (Tree ensemble)",
+    "feature_set": [
+      "sequence_length",
+      "molecular_weight",
+      "isoelectric_point",
+      "instability_index",
+      "aliphatic_index",
+      "gravy",
+      "charged_fraction",
+      "aromatic_fraction"
+    ],
+    "description": "Non-linear ensemble with conservative regularization on 8 physicochemical descriptors."
+  },
+  "ridge_esm2": {
+    "model_type": "LogisticRegression",
+    "penalty": "l2",
+    "C": 1.0,
+    "solver": "lbfgs",
+    "max_iter": 1000,
+    "random_state": 42,
+    "scaling": "StandardScaler (fitted on training fold only)",
+    "feature_set": "ESM-2 t12_35M 480-dimensional mean-pooled representations",
+    "description": "Ridge-regularized linear classifier directly on 480-dim ESM-2 protein language embeddings."
+  },
+  "combined_phys_esm2": {
+    "model_type": "LogisticRegression",
+    "penalty": "l2",
+    "C": 1.0,
+    "solver": "lbfgs",
+    "max_iter": 1000,
+    "random_state": 42,
+    "scaling": "StandardScaler (independent fold-local scaling for phys and ESM-2 features)",
+    "feature_set": "Combined (8 physicochemical features + 480 ESM-2 features = 488 features)",
+    "description": "Secondary comparison evaluating whether physical chemistry adds complementary signal to ESM-2."
+  }
+}

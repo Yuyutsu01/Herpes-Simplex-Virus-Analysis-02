@@ -1,0 +1,4 @@
+target_attribute,null_model_type,permutations,observed_ari,null_ari_mean,null_ari_std,null_ari_ci95_low,null_ari_ci95_high,ari_z_score,ari_empirical_p,observed_nmi,null_nmi_mean,null_nmi_std,null_nmi_ci95_low,null_nmi_ci95_high,nmi_z_score,nmi_empirical_p
+Gene Family Annotation,Naive Uniform Permutation,1000,0.6581,0.0001,0.0015,-0.0026,0.0032,452.12,0.001,0.867,0.2187,0.0033,0.2125,0.2246,197.54,0.001
+Gene Family Annotation,Species-Stratified Permutation,1000,0.6581,0.0027,0.0018,-0.0004,0.0065,366.57,0.001,0.867,0.2214,0.0034,0.2149,0.2281,189.3,0.001
+Species Attribution,Uniform Species Permutation,1000,0.0204,-0.0,0.0005,-0.001,0.0011,37.67,0.001,0.0843,0.0082,0.0015,0.0056,0.0114,52.1,0.001

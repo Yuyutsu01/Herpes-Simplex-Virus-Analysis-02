@@ -1,0 +1,47 @@
+{
+  "analysis_timestamp_utc": "2026-10-21T12:57:26.141944+00:00",
+  "cohorts": {
+    "cohort_a_representatives": 3111,
+    "cohort_b_high_quality": 1615,
+    "cohort_c_annotated": 1622,
+    "cohort_c_unannotated": 1489
+  },
+  "pca_metrics": {
+    "pc1_explained_variance_pct": 22.14,
+    "pc2_explained_variance_pct": 16.14,
+    "top10_cumulative_variance_pct": 72.58,
+    "top50_cumulative_variance_pct": 96.11
+  },
+  "primary_clustering_kmeans_k74": {
+    "algorithm": "K-Means",
+    "k": 74,
+    "silhouette_score_full": 0.322,
+    "silhouette_score_hq": 0.2824,
+    "davies_bouldin_index": 1.3571,
+    "calinski_harabasz_index": 195.56,
+    "ari_against_annotated_genes": 0.6581,
+    "nmi_against_annotated_genes": 0.867,
+    "mean_cluster_purity_pct": 78.78
+  },
+  "density_clustering_hdbscan_mcs15": {
+    "algorithm": "HDBSCAN",
+    "min_cluster_size": 15,
+    "discovered_clusters": 74,
+    "noise_points": 697,
+    "noise_fraction_pct": 22.4,
+    "silhouette_score": 0.4747,
+    "ari_against_annotated_genes": 0.8211,
+    "nmi_against_annotated_genes": 0.9671
+  },
+  "species_divergence_metrics": {
+    "baseline_hsv1_fraction_pct": 36.13,
+    "baseline_hsv2_fraction_pct": 63.87,
+    "clusters_with_statistically_significant_skew": 28,
+    "clusters_with_balanced_representation": 46,
+    "canonical_ortholog_co_clustering_rate_pct": 82.43,
+    "canonical_orthologs_evaluated": 74,
+    "canonical_orthologs_co_clustered": 61,
+    "species_vs_clusters_nmi": 0.0843,
+    "species_vs_clusters_ari": 0.0204
+  }
+}

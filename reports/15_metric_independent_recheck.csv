@@ -1,0 +1,10 @@
+model_id,evaluation_unit,independently_rechecked_accuracy,independently_rechecked_bal_acc,independently_rechecked_macro_f1,step14_reported_macro_f1,discrepancy,protein_subgroup_f1_n52,transcript_subgroup_f1_n11,sequence_level_macro_f1,audit_verdict
+dummy_majority,Family (N=63),0.4762,0.5321,0.4741,0.4741,0.0,0.4759,0.45,0.2651,CONFIRMED_EXACT
+logreg_physicochemical,Family (N=63),0.6032,0.5674,0.5679,0.5679,0.0,0.6103,0.3125,0.5747,CONFIRMED_EXACT
+rf_physicochemical,Family (N=63),0.5873,0.5179,0.5102,0.5102,0.0,0.4895,0.6118,0.5399,CONFIRMED_EXACT
+ridge_esm2,Family (N=63),0.8095,0.7946,0.7946,0.7946,0.0,0.8154,0.6857,0.9112,CONFIRMED_EXACT
+combined_phys_esm2,Family (N=63),0.7778,0.7696,0.7644,0.7644,0.0,0.7786,0.6857,0.8966,CONFIRMED_EXACT
+ridge_esm2_vs_dummy_majority,Paired McNemar Test (N=63),26.0,5.0,0.00019219517707824707,0.00019219517707824707,0.0,,,,CONFIRMED_EXACT
+ridge_esm2_vs_rf_physicochemical,Paired McNemar Test (N=63),23.0,9.0,0.020061607006937265,0.020061607006937265,0.0,,,,CONFIRMED_EXACT
+ridge_esm2_vs_logreg_physicochemical,Paired McNemar Test (N=63),22.0,9.0,0.029449373483657837,0.029449373483657837,0.0,,,,CONFIRMED_EXACT
+ridge_esm2_vs_combined_phys_esm2,Paired McNemar Test (N=63),2.0,0.0,0.5,0.5,0.0,,,,CONFIRMED_EXACT

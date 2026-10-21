@@ -1,0 +1,37 @@
+{
+  "manifest_version": "2.1.0_remediated",
+  "timestamp_utc": "2026-10-21T11:34:13.666921+00:00",
+  "step": "Step 4: Exact Duplicate Detection, Homology Clustering & Redundancy Analysis (Remediated v2.1.0)",
+  "software_environment": {
+    "python_version": "3.11.8 (tags/v3.11.8:db85d51, Feb  6 2024, 22:03:32) [MSC v.1937 64 bit (AMD64)]",
+    "biopython_version": "1.88",
+    "pairwise_aligner": "Bio.Align.PairwiseAligner (Needleman-Wunsch / C-accelerated)",
+    "clustering_algorithm": "Custom Greedy Incremental Alignment-Based Clustering (CD-HIT style heuristic in Python)"
+  },
+  "dataset_counts": {
+    "total_input_records": 22710,
+    "hsv1_records": 12170,
+    "hsv2_records": 10540,
+    "unique_sequence_hashes": 22689,
+    "exact_duplicate_clusters": 22689,
+    "cross_file_shared_sequence_hashes": 21,
+    "cross_file_shared_records": 40,
+    "near_identity_clusters_95": 3111,
+    "canonical_ortholog_pairs_audited": 74,
+    "final_disposition_breakdown": {
+      "RETAINED_VALID_VARIANT": 15061,
+      "QUARANTINED_UNVERIFIED": 254,
+      "RETAINED_UNIQUE_CANDIDATE": 3111,
+      "QUARANTINED_TAXONOMY_CONFLICT": 30,
+      "RETAINED_FRAGMENT_SEPARATE_ANALYSIS": 3211,
+      "EXCLUDED_CONFIRMED_NON_TARGET": 1043
+    }
+  },
+  "remediation_fixes_verified": {
+    "coverage_math_corrected": true,
+    "cdhit_attribution_corrected": true,
+    "ul26_5_token_disambiguated": true,
+    "natural_small_proteins_preserved": true,
+    "aew27163_cross_file_conflict_resolved": true
+  }
+}

@@ -1,0 +1,6 @@
+fold_index,train_sequences,val_sequences,train_families,val_families,val_pre_families,val_post_families,train_val_family_overlap,leakage_status,contains_rs1_megagroup,rs1_sequences_in_fold
+0,397,290,44,19,6,13,0,ZERO_LEAKAGE,True,212
+1,586,101,54,9,5,4,0,ZERO_LEAKAGE,False,0
+2,580,107,52,11,2,9,0,ZERO_LEAKAGE,False,0
+3,598,89,52,11,4,7,0,ZERO_LEAKAGE,False,0
+4,587,100,50,13,6,7,0,ZERO_LEAKAGE,False,0

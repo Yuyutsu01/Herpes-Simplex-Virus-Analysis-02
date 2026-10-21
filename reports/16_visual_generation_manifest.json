@@ -1,0 +1,167 @@
+{
+  "step": 16,
+  "title": "Complete Publication-Quality Tables and Figures Generation Manifest",
+  "timestamp": "2026-10-22T00:15:00",
+  "random_seeds": {
+    "cross_validation_seed": 42,
+    "bootstrap_seed": 42,
+    "numpy_seed": 42
+  },
+  "python_environment": {
+    "matplotlib_version": "3.11.1",
+    "seaborn_version": "0.13.2",
+    "pandas_version": "2.2.3"
+  },
+  "main_figures": [
+    {
+      "id": "FIG-01",
+      "pdf_path": "C:\\Users\\shiva\\OneDrive\\Desktop\\Herpes-Simplex-Virus-Analysis-02\\figures\\figure_1_study_workflow.pdf",
+      "png_path": "C:\\Users\\shiva\\OneDrive\\Desktop\\Herpes-Simplex-Virus-Analysis-02\\figures\\figure_1_study_workflow.png",
+      "csv_path": "C:\\Users\\shiva\\OneDrive\\Desktop\\Herpes-Simplex-Virus-Analysis-02\\figures\\figure_1_study_workflow_data.csv",
+      "pdf_sha256": "c1d3afe82ad9e87d2e34640ca7b97f6bc2382c0c41d44fceb17b3843fd2c98c9",
+      "png_sha256": "5a0af755ce78f6ede012c6c95c2c1ad55ca53dd40dc92e5ec1ea8afd57def2c5"
+    },
+    {
+      "id": "FIG-02",
+      "pdf_path": "C:\\Users\\shiva\\OneDrive\\Desktop\\Herpes-Simplex-Virus-Analysis-02\\figures\\figure_2_dataset_composition.pdf",
+      "png_path": "C:\\Users\\shiva\\OneDrive\\Desktop\\Herpes-Simplex-Virus-Analysis-02\\figures\\figure_2_dataset_composition.png",
+      "csv_path": "C:\\Users\\shiva\\OneDrive\\Desktop\\Herpes-Simplex-Virus-Analysis-02\\figures\\figure_2_dataset_composition_data.csv",
+      "pdf_sha256": "52abd933b77855b5585f9d28c2ecaadb4eb81448bc065a09d10d5d3ee16a7bdc",
+      "png_sha256": "8c56d628c79faf53a7678879b7f8917803b8f107f6859fa71e57107ca7aaea54"
+    },
+    {
+      "id": "FIG-03",
+      "pdf_path": "C:\\Users\\shiva\\OneDrive\\Desktop\\Herpes-Simplex-Virus-Analysis-02\\figures\\figure_3_temporal_label_evidence.pdf",
+      "png_path": "C:\\Users\\shiva\\OneDrive\\Desktop\\Herpes-Simplex-Virus-Analysis-02\\figures\\figure_3_temporal_label_evidence.png",
+      "csv_path": "C:\\Users\\shiva\\OneDrive\\Desktop\\Herpes-Simplex-Virus-Analysis-02\\figures\\figure_3_temporal_label_evidence_data.csv",
+      "pdf_sha256": "713ed4e4661c1e92427d0bd33db666c13758563c2b23dcca19505fe13e7f871e",
+      "png_sha256": "39ba0e41950cab8d9ef133068a2e20dd80e3b8803af22a0937c82c410a753aea"
+    },
+    {
+      "id": "FIG-04",
+      "pdf_path": "C:\\Users\\shiva\\OneDrive\\Desktop\\Herpes-Simplex-Virus-Analysis-02\\figures\\figure_4_embedding_geometry.pdf",
+      "png_path": "C:\\Users\\shiva\\OneDrive\\Desktop\\Herpes-Simplex-Virus-Analysis-02\\figures\\figure_4_embedding_geometry.png",
+      "csv_path": "C:\\Users\\shiva\\OneDrive\\Desktop\\Herpes-Simplex-Virus-Analysis-02\\figures\\figure_4_embedding_geometry_data.csv",
+      "pdf_sha256": "5f19db6f29f5eee7409e05dd2f47cd745fb82cd5264e224bdd4498225469247d",
+      "png_sha256": "3db65ac5d8e75cbb5650acfcb72792cd9029245e871675872d3c9dc84c32f7a9"
+    },
+    {
+      "id": "FIG-05",
+      "pdf_path": "C:\\Users\\shiva\\OneDrive\\Desktop\\Herpes-Simplex-Virus-Analysis-02\\figures\\figure_5_model_comparison.pdf",
+      "png_path": "C:\\Users\\shiva\\OneDrive\\Desktop\\Herpes-Simplex-Virus-Analysis-02\\figures\\figure_5_model_comparison.png",
+      "csv_path": "C:\\Users\\shiva\\OneDrive\\Desktop\\Herpes-Simplex-Virus-Analysis-02\\figures\\figure_5_model_comparison_data.csv",
+      "pdf_sha256": "08fcd93967e69adf5514497b9c03154a81bbb29c0dcf90233a605d63d3073dd3",
+      "png_sha256": "f83069c84f97573e6cac55e7498dc1f875382519cf9dbc65ece61bdd35fe7326"
+    },
+    {
+      "id": "FIG-06",
+      "pdf_path": "C:\\Users\\shiva\\OneDrive\\Desktop\\Herpes-Simplex-Virus-Analysis-02\\figures\\figure_6_family_predictions.pdf",
+      "png_path": "C:\\Users\\shiva\\OneDrive\\Desktop\\Herpes-Simplex-Virus-Analysis-02\\figures\\figure_6_family_predictions.png",
+      "csv_path": "C:\\Users\\shiva\\OneDrive\\Desktop\\Herpes-Simplex-Virus-Analysis-02\\figures\\figure_6_family_predictions_data.csv",
+      "pdf_sha256": "478f45b3c31e445f45ee8646b8b8c22e3cb4b9ce13917c338c42cb106da3096e",
+      "png_sha256": "975bfe61b46049e0b1a5032b49cdad7e174d8b47a33a8062e883dbe9c577de4a"
+    },
+    {
+      "id": "FIG-07",
+      "pdf_path": "C:\\Users\\shiva\\OneDrive\\Desktop\\Herpes-Simplex-Virus-Analysis-02\\figures\\figure_7_sensitivity_analysis.pdf",
+      "png_path": "C:\\Users\\shiva\\OneDrive\\Desktop\\Herpes-Simplex-Virus-Analysis-02\\figures\\figure_7_sensitivity_analysis.png",
+      "csv_path": "C:\\Users\\shiva\\OneDrive\\Desktop\\Herpes-Simplex-Virus-Analysis-02\\figures\\figure_7_sensitivity_analysis_data.csv",
+      "pdf_sha256": "2aea272c0a410b5b7fe89b94d050be4a47283fe4a8693065a46f950920b74ebd",
+      "png_sha256": "8cf3a2e2a012761ca67e1d12303bab110a1c50b883d3346a46fc6a76a1ff9251"
+    },
+    {
+      "id": "FIG-08",
+      "pdf_path": "C:\\Users\\shiva\\OneDrive\\Desktop\\Herpes-Simplex-Virus-Analysis-02\\figures\\figure_8_unsupervised_structure.pdf",
+      "png_path": "C:\\Users\\shiva\\OneDrive\\Desktop\\Herpes-Simplex-Virus-Analysis-02\\figures\\figure_8_unsupervised_structure.png",
+      "csv_path": "C:\\Users\\shiva\\OneDrive\\Desktop\\Herpes-Simplex-Virus-Analysis-02\\figures\\figure_8_unsupervised_structure_data.csv",
+      "pdf_sha256": "8830d4a66e648d7e43aaed48f2957f5135e87b80c5f9372cb40737e51fbf9f1f",
+      "png_sha256": "08ce3b5b9c6d3feeca5b74e1483ba7d37090e9e5edc2723406c6723fc0137231"
+    }
+  ],
+  "main_tables": [
+    {
+      "id": "Table 1",
+      "csv_path": "C:\\Users\\shiva\\OneDrive\\Desktop\\Herpes-Simplex-Virus-Analysis-02\\tables\\table_1_dataset_accounting.csv",
+      "md_path": "C:\\Users\\shiva\\OneDrive\\Desktop\\Herpes-Simplex-Virus-Analysis-02\\tables\\table_1_dataset_accounting.md",
+      "csv_sha256": "5b9339de852f266fb61f699f92cf8f142dcb850feaa879cf5412dd40e1792d37"
+    },
+    {
+      "id": "Table 2",
+      "csv_path": "C:\\Users\\shiva\\OneDrive\\Desktop\\Herpes-Simplex-Virus-Analysis-02\\tables\\table_2_model_configurations.csv",
+      "md_path": "C:\\Users\\shiva\\OneDrive\\Desktop\\Herpes-Simplex-Virus-Analysis-02\\tables\\table_2_model_configurations.md",
+      "csv_sha256": "0e3b3830bb71205e1f48b05892679f71169fd7ae4767f36c3f29d4cea88940fb"
+    },
+    {
+      "id": "Table 3",
+      "csv_path": "C:\\Users\\shiva\\OneDrive\\Desktop\\Herpes-Simplex-Virus-Analysis-02\\tables\\table_3_main_performance.csv",
+      "md_path": "C:\\Users\\shiva\\OneDrive\\Desktop\\Herpes-Simplex-Virus-Analysis-02\\tables\\table_3_main_performance.md",
+      "csv_sha256": "20349c42870dd7ccd4be2f59c9926f891149fc8553a8c0cef453c8de3ebfac86"
+    },
+    {
+      "id": "Table 4",
+      "csv_path": "C:\\Users\\shiva\\OneDrive\\Desktop\\Herpes-Simplex-Virus-Analysis-02\\tables\\table_4_statistical_comparisons.csv",
+      "md_path": "C:\\Users\\shiva\\OneDrive\\Desktop\\Herpes-Simplex-Virus-Analysis-02\\tables\\table_4_statistical_comparisons.md",
+      "csv_sha256": "98e14eb515394ac502b2a93debd9448630a7a697af7b5272152fd2b5b2ce47f8"
+    },
+    {
+      "id": "Table 5",
+      "csv_path": "C:\\Users\\shiva\\OneDrive\\Desktop\\Herpes-Simplex-Virus-Analysis-02\\tables\\table_5_temporal_evidence_summary.csv",
+      "md_path": "C:\\Users\\shiva\\OneDrive\\Desktop\\Herpes-Simplex-Virus-Analysis-02\\tables\\table_5_temporal_evidence_summary.md",
+      "csv_sha256": "683dec33f112af3160495b79408e91841bb4d58003a02bf644980d0b6512ed73"
+    },
+    {
+      "id": "Table 6",
+      "csv_path": "C:\\Users\\shiva\\OneDrive\\Desktop\\Herpes-Simplex-Virus-Analysis-02\\tables\\table_6_sensitivity_analysis.csv",
+      "md_path": "C:\\Users\\shiva\\OneDrive\\Desktop\\Herpes-Simplex-Virus-Analysis-02\\tables\\table_6_sensitivity_analysis.md",
+      "csv_sha256": "d50d87d46e5bb20deec9bd83b3f92776caf4bd194f4c60e9b0f7f7953488021d"
+    },
+    {
+      "id": "Table 7",
+      "csv_path": "C:\\Users\\shiva\\OneDrive\\Desktop\\Herpes-Simplex-Virus-Analysis-02\\tables\\table_7_unsupervised_summary.csv",
+      "md_path": "C:\\Users\\shiva\\OneDrive\\Desktop\\Herpes-Simplex-Virus-Analysis-02\\tables\\table_7_unsupervised_summary.md",
+      "csv_sha256": "64faccefa55324ae5dbe71eb5c1edc6e3d15fd9598799840c5de3d4ef1f3fe22"
+    }
+  ],
+  "supplementary_tables": [
+    {
+      "id": "Table S1",
+      "csv_path": "C:\\Users\\shiva\\OneDrive\\Desktop\\Herpes-Simplex-Virus-Analysis-02\\tables\\table_s1_supervised_benchmark_687.csv",
+      "csv_sha256": "a8076e22071a809553fa11919e40401b14b25cc678b6fb2a715b7ea3dffd44c9"
+    },
+    {
+      "id": "Table S2",
+      "csv_path": "C:\\Users\\shiva\\OneDrive\\Desktop\\Herpes-Simplex-Virus-Analysis-02\\tables\\table_s2_split_manifest_5fold.csv",
+      "csv_sha256": "e55390b237aa0778a0a2d5c82196b6842749e248307543c46b87075ae933b039"
+    },
+    {
+      "id": "Table S3",
+      "csv_path": "C:\\Users\\shiva\\OneDrive\\Desktop\\Herpes-Simplex-Virus-Analysis-02\\tables\\table_s3_family_oof_predictions.csv",
+      "csv_sha256": "bd6b5f91b9cce047db7e1a83c34361721ac6236f4d2c20af80946ffb1b47e656"
+    },
+    {
+      "id": "Table S4",
+      "csv_path": "C:\\Users\\shiva\\OneDrive\\Desktop\\Herpes-Simplex-Virus-Analysis-02\\tables\\table_s4_sequence_oof_predictions.csv",
+      "csv_sha256": "28f856ecb322c3ed9c1612d82e12bdb912975065d36ee35bbdda9973f774b65f"
+    },
+    {
+      "id": "Table S5",
+      "csv_path": "C:\\Users\\shiva\\OneDrive\\Desktop\\Herpes-Simplex-Virus-Analysis-02\\tables\\table_s5_temporal_evidence_ledger_63.csv",
+      "csv_sha256": "f920c670b8448b4422eb5119f9e30cdef853c5c3768f3e41d5a5a3e52e065ffe"
+    },
+    {
+      "id": "Table S6",
+      "csv_path": "C:\\Users\\shiva\\OneDrive\\Desktop\\Herpes-Simplex-Virus-Analysis-02\\tables\\table_s6_corpus_lineage_accounting.csv",
+      "csv_sha256": "098562a26d8ca72561225e820c2d6e78f51e87f8e831809f7977156bdc103dd7"
+    },
+    {
+      "id": "Table S7",
+      "csv_path": "C:\\Users\\shiva\\OneDrive\\Desktop\\Herpes-Simplex-Virus-Analysis-02\\tables\\table_s7_clustering_robustness.csv",
+      "csv_sha256": "26ec07b735bf20dd90fb563218cc8d8fa6e037a0b0d378ec0539d81cbeacc125"
+    },
+    {
+      "id": "Table S8",
+      "csv_path": "C:\\Users\\shiva\\OneDrive\\Desktop\\Herpes-Simplex-Virus-Analysis-02\\tables\\table_s8_reference_claim_support.csv",
+      "csv_sha256": "cc37647c9c0e6052e8e6330b83cff35a11e0ec3da1f62ff14a0d69125ccce3e9"
+    }
+  ]
+}
