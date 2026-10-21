@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this repository, benchmark data, or methodology in your research, please cite it as below."
+authors:
+  - name: "Computational Virology Research Consortium"
+title: "Temporal Organization and Evolutionary Conservation of the HSV-1 and HSV-2 Proteomes: Integrating Physicochemical Profiling, Protein Language Model Embeddings, and Unsupervised Learning"
+version: 1.0.0
+date-released: 2026-10-22
+repository-code: "https://github.com/Yuyutsu01/Herpes-Simplex-Virus-Analysis-02"
+keywords:
+  - "herpes simplex virus"
+  - "HSV-1"
+  - "HSV-2"
+  - "computational proteomics"
+  - "protein language models"
+  - "ESM-2"
+  - "viral replication kinetics"
+  - "reproducibility"
